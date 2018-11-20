@@ -1,6 +1,6 @@
-﻿using IXI;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using Xunity.Playables;
 
 public class Player : MonoBehaviour
 {
