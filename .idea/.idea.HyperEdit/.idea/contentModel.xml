@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\IXI\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\IXI\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_HyperEdit.-774709957.00" t="ExcludeRecursive" />
+    <e p="D:\Code\HyperEdit" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Code" t="Include">
+          <e p="CameraController.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+        </e>
+        <e p="Xunity" t="Include">
+          <e p="CameraController.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="AnimatedEditor.cs" t="Include" />
+            <e p="Drawers" t="Include">
+              <e p="ReferenceVariableDrawer.cs" t="Include" />
+              <e p="ScriptableVariableDrawer.cs" t="Include" />
+              <e p="SerializableMonoscriptDrawer.cs" t="Include" />
+              <e p="StringDrawer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="ArrayExtensions.cs" t="Include" />
+            <e p="EnumExtensions.cs" t="Include" />
+            <e p="GameObjectExtensions.cs" t="Include" />
+            <e p="TransformExtensions.cs" t="Include" />
+            <e p="Vector3Extensions.cs" t="Include" />
+          </e>
+          <e p="GameBehaviour.cs" t="Include" />
+          <e p="Playables" t="Include">
+            <e p="DisableAfter.cs" t="Include" />
+            <e p="IPlayable.cs" t="Include" />
+            <e p="MaterialColorAnimation.cs" t="Include" />
+            <e p="ParticleEffect.cs" t="Include" />
+            <e p="Playable.cs" t="Include" />
+          </e>
+          <e p="ReferenceVariables" t="Include">
+            <e p="BoolReference.cs" t="Include" />
+            <e p="FloatReference.cs" t="Include" />
+            <e p="IntReference.cs" t="Include" />
+            <e p="ReferenceVariable.cs" t="Include" />
+            <e p="StringReference.cs" t="Include" />
+            <e p="Vector3Reference.cs" t="Include" />
+          </e>
+          <e p="ScriptableVariables" t="Include">
+            <e p="BoolVariable.cs" t="Include" />
+            <e p="FloatVariable.cs" t="Include" />
+            <e p="IntVariable.cs" t="Include" />
+            <e p="ScriptableVariable.cs" t="Include" />
+            <e p="SerializableMonoscript.cs" t="Include" />
+            <e p="StringVariable.cs" t="Include" />
+            <e p="Vector3Variable.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="ObstacleScrollingShader.shader" t="Include" />
+            <e p="ObstacleShader.shader" t="Include" />
+            <e p="RoadShader.shader" t="Include" />
+            <e p="Unlit.shader" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="ActionUtils.cs" t="Include" />
+            <e p="RotateBehaviour.cs" t="Include" />
+            <e p="RotateParticlesFacingTarget.cs" t="Include" />
+            <e p="ScalingBehaviour.cs" t="Include" />
+            <e p="VectorUtils.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="HyperEdit.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

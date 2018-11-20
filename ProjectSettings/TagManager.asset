@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Win
+  - Lose
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2473553561
+    locked: 0
+  - name: Enemies
+    uniqueID: 3168778383
+    locked: 0
+  - name: Player
+    uniqueID: 1388356139
+    locked: 0
+  - name: World
+    uniqueID: 708288359
+    locked: 0
+  - name: Foreground
+    uniqueID: 2359903787
+    locked: 0
+  - name: UI
+    uniqueID: 2479270375
+    locked: 0
