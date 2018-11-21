@@ -325,11 +325,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4510666306395340, guid: 4e6c0137e1bc86c408c4d218b31e461c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.92
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 4510666306395340, guid: 4e6c0137e1bc86c408c4d218b31e461c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.96
+      value: 3.81
       objectReference: {fileID: 0}
     - target: {fileID: 4510666306395340, guid: 4e6c0137e1bc86c408c4d218b31e461c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -514,8 +514,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1129912804}
-  smoothTime: 0.3
-  rbVelocityMultiplier: 0.5
+  targetOffset:
+    reference: {fileID: 11400000, guid: 1abf292ad1921d7498589b8c8499f943, type: 2}
+    value: {x: 0, y: 0, z: -1}
+    useConstant: 0
+  smoothTime:
+    reference: {fileID: 11400000, guid: c6826c3f29f456343836cfd1b4b77dd6, type: 2}
+    value: 0.5
+    useConstant: 0
+  rbVelocityMultiplier:
+    reference: {fileID: 11400000, guid: f85be797c30dee044b2018dd2dccdf5f, type: 2}
+    value: 0.5
+    useConstant: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -716,12 +726,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 631392677}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0505959c3a3f63f40bc2f76ac0456c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f435b17e92b548eaae1e23b1bf1fd49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   duration:
     reference: {fileID: 0}
-    value: 0.5
+    value: 0.4
     useConstant: 1
   playOnEnable:
     reference: {fileID: 0}
@@ -735,7 +745,7 @@ MonoBehaviour:
     reference: {fileID: 0}
     value: 0
     useConstant: 1
-  animation:
+  scalingCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -748,8 +758,8 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.1997163
-      value: 1.3311129
+      time: 0.093460515
+      value: 1.3217756
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -757,19 +767,19 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.5282718
-      value: 0.91804075
-      inSlope: -0.6729747
-      outSlope: -0.6729747
+      time: 0.30537698
+      value: 0.8842122
+      inSlope: -0.31587428
+      outSlope: -0.31587428
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.73289907
-      value: 1.0853918
-      inSlope: 0.18282211
-      outSlope: 0.18282211
+      time: 0.60767186
+      value: 1.0781529
+      inSlope: 0.28162375
+      outSlope: 0.28162375
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -1558,7 +1568,7 @@ MonoBehaviour:
   jumpVelocity: 8
   maxSpeed: 3
   playablesOnJump:
-  - {fileID: 631392678}
+  - {fileID: 0}
   sceneReloadDelay: 3
 --- !u!4 &1129912804
 Transform:
@@ -2308,6 +2318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885353646}
   - component: {fileID: 1885353647}
+  - component: {fileID: 1885353648}
   m_Layer: 0
   m_Name: New Sprite (2)
   m_TagString: Untagged
@@ -2374,6 +2385,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1885353648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1885353645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9ca452d59164c62acbd6c91bbc247d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  playOnEnable:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  isLooping:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  usesFixedUpdate:
+    reference: {fileID: 0}
+    value: 0
+    useConstant: 1
+  rotationSpeed:
+    reference: {fileID: 0}
+    value: {x: 0, y: 0, z: -300}
+    useConstant: 1
 --- !u!1001 &1951598957
 Prefab:
   m_ObjectHideFlags: 0
