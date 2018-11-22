@@ -13,6 +13,7 @@
             <e p="Player.cs" t="Include" />
           </e>
         </e>
+        <e p="testttt.cs" t="Include" />
         <e p="Xunity" t="Include">
           <e p="Behaviours" t="Include">
             <e p="CameraController.cs" t="Include" />
@@ -20,12 +21,19 @@
           </e>
           <e p="Editor" t="Include">
             <e p="AnimatedEditor.cs" t="Include" />
+            <e p="BuiltInEditors" t="Include">
+              <e p="DecoratorEditor.cs" t="Include" />
+              <e p="RendererEditor.cs" t="Include" />
+              <e p="TrailRendererEditor.cs" t="Include" />
+              <e p="TransformEditor.cs" t="Include" />
+            </e>
             <e p="Drawers" t="Include">
-              <e p="ReferenceVariableDrawer.cs" t="Include" />
               <e p="ScriptableVariableDrawer.cs" t="Include" />
               <e p="SerializableMonoscriptDrawer.cs" t="Include" />
               <e p="StringDrawer.cs" t="Include" />
+              <e p="VariableReferenceDrawer.cs" t="Include" />
             </e>
+            <e p="GameEventEditor.cs" t="Include" />
           </e>
           <e p="Exceptions" t="Include">
             <e p="WrongMethodException.cs" t="Include" />
@@ -47,12 +55,16 @@
             <e p="Rotate.cs" t="Include" />
             <e p="Scale.cs" t="Include" />
           </e>
-          <e p="ReferenceVariables" t="Include">
+          <e p="ScriptableEvents" t="Include">
+            <e p="GameEvent.cs" t="Include" />
+            <e p="GameEventListener.cs" t="Include" />
+          </e>
+          <e p="ScriptableReferences" t="Include">
             <e p="BoolReference.cs" t="Include" />
             <e p="FloatReference.cs" t="Include" />
             <e p="IntReference.cs" t="Include" />
-            <e p="ReferenceVariable.cs" t="Include" />
             <e p="StringReference.cs" t="Include" />
+            <e p="VariableReference.cs" t="Include" />
             <e p="Vector3Reference.cs" t="Include" />
           </e>
           <e p="ScriptableVariables" t="Include">

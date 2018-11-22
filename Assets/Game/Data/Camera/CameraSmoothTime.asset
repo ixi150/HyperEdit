@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Name: CameraSmoothTime
   m_EditorClassIdentifier: 
   value: 0.3
+  changedEvent: {fileID: 0}
   restrictAccess: 1
-  authorizedSources: []
+  authorizedSources:
+  - name: 
+    monoScript: {fileID: 11500000, guid: b75f87ba11704e13a447f140e8f70a29, type: 3}

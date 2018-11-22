@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using Xunity.Behaviours;
-using Xunity.ReferenceVariables;
+using Xunity.ScriptableReferences;
 
 namespace Game
 {
