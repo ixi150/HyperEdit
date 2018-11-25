@@ -12,33 +12,34 @@
     <session id="238689253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2913" />
+          <entry key="cs" value="6380" />
           <entry key="resx" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2913" />
+          <entry key="C#" value="6380" />
           <entry key="Resources" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="85" />
+          <entry key="cs" value="109" />
           <entry key="resx" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="85" />
+          <entry key="C#" value="109" />
           <entry key="Resources" value="1" />
         </counts>
       </usages-collector>
@@ -47,55 +48,176 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEvent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="335">
+              <caret line="43" column="117" selection-start-line="43" selection-start-column="117" selection-end-line="43" selection-end-column="117" />
               <folding>
-                <marker date="1542920591246" expanded="false" signature="6:52" ph="..." />
-                <marker date="1542920591246" expanded="true" signature="87:1145" ph="{...}" />
-                <marker date="1542920591246" expanded="true" signature="157:1143" ph="{...}" />
-                <marker date="1542920591246" expanded="true" signature="405:468" ph="{...}" />
-                <marker date="1542920591246" expanded="true" signature="497:632" ph="{...}" />
-                <marker date="1542920591246" expanded="true" signature="698:880" ph="{...}" />
-                <marker date="1542920591246" expanded="true" signature="948:1137" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="6:213" ph="..." />
+                <marker date="1543145407579" expanded="true" signature="242:2845" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="294:2843" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="959:1038" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1085:1156" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1204:1283" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1334:1673" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1360:1663" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1731:1912" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1757:1902" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="1984:2040" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="2081:2289" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="2334:2560" ph="{...}" />
+                <marker date="1543145407579" expanded="true" signature="2624:2837" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/VariableReference.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/ScriptableSet.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="90">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
-                <marker date="1542919565037" expanded="false" signature="6:66" ph="..." />
-                <marker date="1542919565037" expanded="true" signature="105:1215" ph="{...}" />
-                <marker date="1542919565037" expanded="true" signature="295:1213" ph="{...}" />
-                <marker date="1542919565037" expanded="true" signature="516:615" ph="{...}" />
-                <marker date="1542919565037" expanded="true" signature="747:939" ph="{...}" />
-                <marker date="1542919565037" expanded="true" signature="800:928" ph="{...}" />
-                <marker date="1542919565037" expanded="true" signature="941:1207" ph="/* public ReferenceVariable(bool useConstant = false, TVal value = default(TVal), TRef reference = default(TRef)) ... */" />
+                <marker date="1543145742173" expanded="false" signature="6:52" ph="..." />
+                <marker date="1543145742173" expanded="true" signature="75:596" ph="{...}" />
+                <marker date="1543145742173" expanded="true" signature="139:594" ph="{...}" />
+                <marker date="1543145742173" expanded="true" signature="230:284" ph="{...}" />
+                <marker date="1543145742173" expanded="true" signature="310:370" ph="{...}" />
+                <marker date="1543145742173" expanded="true" signature="404:498" ph="{...}" />
+                <marker date="1543145742173" expanded="true" signature="535:588" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/Vector3FromComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <marker date="1543145096579" expanded="true" signature="6:136" ph="..." />
+                <marker date="1543145096579" expanded="true" signature="174:2787" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="324:2785" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="561:698" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="753:817" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="860:1496" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="898:1486" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="1553:1612" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="1674:1738" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="1790:1842" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="1898:1951" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="2046:2182" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="2247:2779" ph="{...}" />
+                <marker date="1543145096579" expanded="true" signature="2371:2582" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/ScriptableVariable.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetMember.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="650">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding>
-                <marker date="1542924301938" expanded="true" signature="6:151" ph="..." />
-                <marker date="1542924301938" expanded="true" signature="189:1594" ph="{...}" />
-                <marker date="1542924301938" expanded="true" signature="258:1592" ph="{...}" />
-                <marker date="1542924301938" expanded="true" signature="600:679" ph="{...}" />
-                <marker date="1542924301938" expanded="true" signature="735:1229" ph="{...}" />
-                <marker date="1542924301938" expanded="true" signature="802:1018" ph="{...}" />
-                <marker date="1542924301938" expanded="true" signature="1278:1486" ph="{...}" />
-                <marker date="1542924301938" expanded="true" signature="1529:1586" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="6:77" ph="..." />
+                <marker date="1543146033703" expanded="true" signature="100:1283" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="145:1281" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="286:364" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="434:497" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="519:653" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="679:789" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="814:921" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="947:1057" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="1077:1163" ph="{...}" />
+                <marker date="1543146033703" expanded="true" signature="1186:1275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetCollection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding>
+                <marker date="1543047480105" expanded="true" signature="41:160" ph="{...}" />
+                <marker date="1543047480105" expanded="true" signature="146:158" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/LinqExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="52" column="79" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+              <folding>
+                <marker date="1543144103304" expanded="false" signature="6:71" ph="..." />
+                <marker date="1543144103304" expanded="true" signature="100:2140" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="141:2138" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="219:285" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="362:620" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="476:554" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="701:923" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="996:1062" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="1139:1397" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="1253:1331" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="1478:1700" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="1781:1847" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="1897:1943" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="1993:2039" ph="{...}" />
+                <marker date="1543144103304" expanded="true" signature="2079:2132" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-355">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <marker date="1543143700783" expanded="false" signature="6:57" ph="..." />
+                <marker date="1543143700783" expanded="true" signature="86:3573" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="144:3571" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="427:593" ph="/* ReSharper disable once InconsistentNaming ... */" />
+                <marker date="1543143700783" expanded="true" signature="632:823" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="833:999" ph="/* ReSharper disable once InconsistentNaming ... */" />
+                <marker date="1543143700783" expanded="true" signature="1040:1236" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="1269:1384" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="1422:1547" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="1579:1692" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="1724:1784" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="1827:1884" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="1918:2040" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="2085:2144" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="2189:2209" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="2249:2363" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="2433:2542" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="2605:2719" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="2809:2941" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="3000:3072" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="3149:3242" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="3319:3382" ph="{...}" />
+                <marker date="1543143700783" expanded="true" signature="3465:3565" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Base/ScriptableAsset.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <marker date="1543060191229" expanded="true" signature="41:170" ph="{...}" />
+                <marker date="1543060191229" expanded="true" signature="104:168" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,58 +226,53 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/MaterialColorAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/IPlayable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector2Utils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/Vector2Extensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/FloatReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/ActionUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/IntReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/StringDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/ParticleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/GameEventEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/VariableReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/StringReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/DisableAfter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Playable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/BoolReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/VariableReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/ScriptableVariableDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/SerializableMonoscriptDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/Vector3Extensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/BoolVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector3Utils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/ScriptableVariable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/ArrayExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Code/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Exceptions/WrongMethodException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/Vector3Reference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Base/ScriptableAsset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Scale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/Vector3Variable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/IPlayable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/MaterialColorAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/LinqExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Playable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/DisableAfter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/ParticleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/GameObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Exceptions/WrongMethodException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/Vector2Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/TransformExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/Vector3Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/ArrayExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/ActionUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector3Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/GameObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector2Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Code/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetMember.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/ActionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/GameEventEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/StringDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/Vector3Variable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/BoolVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/VariableReferenceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/ScriptableVariableDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Sets/ScriptableSet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/SerializableMonoscriptDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/ScriptableVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/VariableReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/ScriptableFunction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/Vector3Reference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/Vector3FromComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/FloatReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/IntReference.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Xunity/Extensions/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/Extensions/ArrayExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ReferenceVariables/ReferenceVariable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ReferenceVariables/FloatReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ReferenceVariables/BoolReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ReferenceVariables/IntReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ReferenceVariables/StringReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/Vector3Variable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/ReferenceVariables/FloatReference - Copy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/SerializableMonoscriptDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CameraController2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Code/Player.cs" />
@@ -167,7 +284,6 @@
         <option value="$PROJECT_DIR$/Assets/Xunity/Playables/ScalingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Behaviours.Designer.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Behaviours.resx" />
-        <option value="$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Playables/DisableAfter.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Exceptions/WrongMethodExeption.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Exceptions/WrongMethodException.cs" />
@@ -175,7 +291,6 @@
         <option value="$PROJECT_DIR$/Assets/Xunity/Playables/Rotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Playables/Scale.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Playables/ParticleEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Playables/MaterialColorAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/ScriptableEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/Editor/Drawers/ReferenceVariableDrawer.cs" />
@@ -195,6 +310,20 @@
         <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/VariableReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/ScriptableVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/testttt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Extensions/ActionExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Sets/ThingMonitor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Sets/RuntimeSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Sets/SetCollection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/ScriptableFunctions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/ScriptableFunction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Base/ScriptableAsset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Extensions/LinqExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/Vector3FromComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Sets/ScriptableSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Xunity/Sets/SetMember.cs" />
       </list>
     </option>
   </component>
@@ -209,6 +338,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -255,7 +397,7 @@
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ScriptableEvents" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Behaviours" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -263,7 +405,7 @@
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ScriptableReferences" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Extensions" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -271,7 +413,23 @@
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ScriptableVariables" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ScriptableFunctions" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shaders" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -313,19 +471,6 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,10 +534,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,7 +552,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Unity" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -429,55 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ixi/Utils/VectorUtils.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ixi/Utils/ActionUtils.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/orbia/GameBehaviour.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Utils/GameObjectExtensions.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Utils/ScaleShaker.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Player.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/Vector3Variable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/ArrayExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/CameraController2D.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Code/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector2Utils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector3Utils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Utils/ActionUtils.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -489,13 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/Vector2Extensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -514,79 +603,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/GameObjectExtensions.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-          <folding>
-            <marker date="1542758151076" expanded="true" signature="6:57" ph="..." />
-            <marker date="1542758151076" expanded="true" signature="144:3426" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="427:593" ph="/* ReSharper disable once InconsistentNaming ... */" />
-            <marker date="1542758151076" expanded="true" signature="632:823" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="833:999" ph="/* ReSharper disable once InconsistentNaming ... */" />
-            <marker date="1542758151076" expanded="true" signature="1040:1236" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="1269:1394" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="1426:1539" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="1571:1631" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="1674:1731" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="1765:1887" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="1932:1991" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2036:2056" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2096:2210" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2280:2389" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2452:2566" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2656:2788" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2847:2919" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="2996:3089" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="3166:3229" ph="{...}" />
-            <marker date="1542758151076" expanded="true" signature="3320:3420" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1542920563871" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542920563871" expanded="true" signature="151:969" ph="{...}" />
-            <marker date="1542920563871" expanded="true" signature="325:408" ph="{...}" />
-            <marker date="1542920563871" expanded="true" signature="440:709" ph="{...}" />
-            <marker date="1542920563871" expanded="true" signature="466:699" ph="{...}" />
-            <marker date="1542920563871" expanded="true" signature="750:963" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Playable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <marker date="1542920563878" expanded="false" signature="6:118" ph="..." />
-            <marker date="1542920563878" expanded="true" signature="210:3892" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="225:304" ph="/// Duration of effect in seconds. ... " />
-            <marker date="1542920563878" expanded="true" signature="872:951" ph="/// Duration of effect in seconds. ... " />
-            <marker date="1542920563878" expanded="true" signature="981:1038" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1069:1127" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1164:1228" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1262:1323" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1360:1470" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1507:1616" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1671:1776" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1804:1931" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="1959:2086" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="2138:2298" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="2334:2458" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="2494:2608" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="2865:3053" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="3097:3259" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="3302:3376" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="3412:3781" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="3491:3748" ph="{...}" />
-            <marker date="1542920563878" expanded="true" signature="3804:3886" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,14 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <marker date="1542920588219" expanded="false" signature="6:53" ph="..." />
-            <marker date="1542920588219" expanded="true" signature="118:583" ph="{...}" />
-            <marker date="1542920588219" expanded="true" signature="260:280" ph="{...}" />
-            <marker date="1542920588219" expanded="true" signature="332:352" ph="{...}" />
-            <marker date="1542920588219" expanded="true" signature="403:423" ph="{...}" />
-            <marker date="1542920588219" expanded="true" signature="485:577" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,14 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1542758151025" expanded="true" signature="82:832" ph="{...}" />
-            <marker date="1542758151025" expanded="true" signature="276:384" ph="{...}" />
-            <marker date="1542758151025" expanded="true" signature="443:463" ph="{...}" />
-            <marker date="1542758151025" expanded="true" signature="513:533" ph="{...}" />
-            <marker date="1542758151025" expanded="true" signature="595:698" ph="{...}" />
-            <marker date="1542758151025" expanded="true" signature="750:826" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,21 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1542758151113" expanded="false" signature="6:43" ph="..." />
-            <marker date="1542758151113" expanded="true" signature="116:2500" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="369:456" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="500:589" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="639:762" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="824:844" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="896:956" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="1007:1067" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="1159:1265" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="1378:1664" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="1710:2338" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="1757:2328" ph="{...}" />
-            <marker date="1542758151113" expanded="true" signature="2375:2494" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,16 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1542758150939" expanded="true" signature="99:1352" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="382:639" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="683:848" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="874:942" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="992:1054" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="1116:1203" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="1255:1275" ph="{...}" />
-            <marker date="1542758150939" expanded="true" signature="1326:1346" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,13 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <marker date="1542756014858" expanded="true" signature="69:410" ph="{...}" />
-            <marker date="1542756014858" expanded="true" signature="124:144" ph="{...}" />
-            <marker date="1542756014858" expanded="true" signature="214:234" ph="{...}" />
-            <marker date="1542756014858" expanded="true" signature="286:306" ph="{...}" />
-            <marker date="1542756014858" expanded="true" signature="357:403" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,112 +649,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1542757039457" expanded="true" signature="42:366" ph="{...}" />
-            <marker date="1542757039457" expanded="true" signature="94:364" ph="{...}" />
-            <marker date="1542757039457" expanded="true" signature="176:249" ph="{...}" />
-            <marker date="1542757039457" expanded="true" signature="302:358" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Events/Editor/GameEventEditor.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/ScriptableEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/Thing.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/ThingDisabler.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/RuntimeSet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/ThingMonitor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Events/Editor/GameEventEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/ScriptableEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/Thing.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/ThingDisabler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/RuntimeSet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/UNITE/Sets/ThingMonitor.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Editor/GameEventEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <marker date="1542920203062" expanded="true" signature="6:68" ph="..." />
-            <marker date="1542920203062" expanded="true" signature="93:846" ph="{...}" />
-            <marker date="1542920203062" expanded="true" signature="183:844" ph="{...}" />
-            <marker date="1542920203062" expanded="true" signature="235:838" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEventListener.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <marker date="1542919580819" expanded="true" signature="6:44" ph="..." />
-            <marker date="1542919580819" expanded="true" signature="79:627" ph="{...}" />
-            <marker date="1542919580819" expanded="true" signature="132:625" ph="{...}" />
-            <marker date="1542919580819" expanded="true" signature="375:426" ph="{...}" />
-            <marker date="1542919580819" expanded="true" signature="459:525" ph="{...}" />
-            <marker date="1542919580819" expanded="true" signature="551:619" ph="{...}" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/BoolVariable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1542752604636" expanded="true" signature="56:167" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/BoolReference.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <marker date="1542920591165" expanded="false" signature="6:47" ph="..." />
-            <marker date="1542920591165" expanded="true" signature="86:199" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/FloatReference.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <marker date="1542920591129" expanded="false" signature="6:47" ph="..." />
-            <marker date="1542920591129" expanded="true" signature="86:203" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/IntReference.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <marker date="1542920591093" expanded="false" signature="6:47" ph="..." />
-            <marker date="1542920591093" expanded="true" signature="86:195" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,10 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1542920591204" expanded="false" signature="6:47" ph="..." />
-            <marker date="1542920591204" expanded="true" signature="86:207" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,10 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <marker date="1542920591278" expanded="false" signature="6:66" ph="..." />
-            <marker date="1542920591278" expanded="true" signature="105:230" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <marker date="1542921549160" expanded="false" signature="6:72" ph="..." />
-            <marker date="1542921549160" expanded="true" signature="105:2362" ph="{...}" />
-            <marker date="1542921549160" expanded="true" signature="420:2360" ph="{...}" />
-            <marker date="1542921549160" expanded="true" signature="435:547" ph="/// Options to display in the popup to select constant or variable. ... " />
-            <marker date="1542921549160" expanded="true" signature="857:2354" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,12 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <marker date="1542752643323" expanded="false" signature="6:71" ph="..." />
-            <marker date="1542752643323" expanded="true" signature="104:976" ph="{...}" />
-            <marker date="1542752643323" expanded="true" signature="228:974" ph="{...}" />
-            <marker date="1542752643323" expanded="true" signature="331:968" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,69 +714,255 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/testttt.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/ScriptableVariable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/Vector2Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/ActionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/ThingDisabler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/Thing.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/ThingScriptableSet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/ThingMonitor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/IntReference.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
-            <marker date="1542921549119" expanded="false" signature="6:71" ph="..." />
-            <marker date="1542921549119" expanded="true" signature="104:1723" ph="{...}" />
-            <marker date="1542921549119" expanded="true" signature="415:1721" ph="{...}" />
-            <marker date="1542921549119" expanded="true" signature="518:1715" ph="{...}" />
-            <marker date="1542921549119" expanded="true" signature="541:678" ph="/* Using BeginProperty / EndProperty on the parent property means that ... */" />
-            <marker date="1542921549119" expanded="true" signature="1457:1576" ph="{...}" />
+            <marker date="1543043092197" expanded="false" signature="6:47" ph="..." />
+            <marker date="1543043092197" expanded="true" signature="86:195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/FloatReference.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <marker date="1543043092197" expanded="false" signature="6:47" ph="..." />
+            <marker date="1543043092197" expanded="true" signature="86:203" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/ScriptableFunction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <marker date="1543060191083" expanded="true" signature="6:37" ph="..." />
+            <marker date="1543060191083" expanded="true" signature="75:307" ph="{...}" />
+            <marker date="1543060191083" expanded="true" signature="152:305" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableReferences/VariableReference.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="75">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="34" />
           <folding>
-            <marker date="1542919565037" expanded="false" signature="6:66" ph="..." />
-            <marker date="1542919565037" expanded="true" signature="105:1215" ph="{...}" />
-            <marker date="1542919565037" expanded="true" signature="295:1213" ph="{...}" />
-            <marker date="1542919565037" expanded="true" signature="516:615" ph="{...}" />
-            <marker date="1542919565037" expanded="true" signature="747:939" ph="{...}" />
-            <marker date="1542919565037" expanded="true" signature="800:928" ph="{...}" />
-            <marker date="1542919565037" expanded="true" signature="941:1207" ph="/* public ReferenceVariable(bool useConstant = false, TVal value = default(TVal), TRef reference = default(TRef)) ... */" />
+            <marker date="1543043092197" expanded="false" signature="6:66" ph="..." />
+            <marker date="1543043092197" expanded="true" signature="105:1215" ph="{...}" />
+            <marker date="1543043092197" expanded="true" signature="295:1213" ph="{...}" />
+            <marker date="1543043092197" expanded="true" signature="516:615" ph="{...}" />
+            <marker date="1543043092197" expanded="true" signature="747:939" ph="{...}" />
+            <marker date="1543043092197" expanded="true" signature="800:928" ph="{...}" />
+            <marker date="1543043092197" expanded="true" signature="941:1207" ph="/* public ReferenceVariable(bool useConstant = false, TVal value = default(TVal), TRef reference = default(TRef)) ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableEvents/GameEvent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Base/ScriptableAsset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <marker date="1542920591246" expanded="false" signature="6:52" ph="..." />
-            <marker date="1542920591246" expanded="true" signature="87:1145" ph="{...}" />
-            <marker date="1542920591246" expanded="true" signature="157:1143" ph="{...}" />
-            <marker date="1542920591246" expanded="true" signature="405:468" ph="{...}" />
-            <marker date="1542920591246" expanded="true" signature="497:632" ph="{...}" />
-            <marker date="1542920591246" expanded="true" signature="698:880" ph="{...}" />
-            <marker date="1542920591246" expanded="true" signature="948:1137" ph="{...}" />
+            <marker date="1543060191229" expanded="true" signature="41:170" ph="{...}" />
+            <marker date="1543060191229" expanded="true" signature="104:168" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/testttt.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/LinqExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="750">
+          <caret line="52" column="79" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+          <folding>
+            <marker date="1543144103304" expanded="false" signature="6:71" ph="..." />
+            <marker date="1543144103304" expanded="true" signature="100:2140" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="141:2138" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="219:285" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="362:620" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="476:554" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="701:923" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="996:1062" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="1139:1397" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="1253:1331" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="1478:1700" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="1781:1847" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="1897:1943" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="1993:2039" ph="{...}" />
+            <marker date="1543144103304" expanded="true" signature="2079:2132" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/ScriptableVariable.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="-355">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <marker date="1542924301938" expanded="true" signature="6:151" ph="..." />
-            <marker date="1542924301938" expanded="true" signature="189:1594" ph="{...}" />
-            <marker date="1542924301938" expanded="true" signature="258:1592" ph="{...}" />
-            <marker date="1542924301938" expanded="true" signature="600:679" ph="{...}" />
-            <marker date="1542924301938" expanded="true" signature="735:1229" ph="{...}" />
-            <marker date="1542924301938" expanded="true" signature="802:1018" ph="{...}" />
-            <marker date="1542924301938" expanded="true" signature="1278:1486" ph="{...}" />
-            <marker date="1542924301938" expanded="true" signature="1529:1586" ph="{...}" />
+            <marker date="1543143700783" expanded="false" signature="6:57" ph="..." />
+            <marker date="1543143700783" expanded="true" signature="86:3573" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="144:3571" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="427:593" ph="/* ReSharper disable once InconsistentNaming ... */" />
+            <marker date="1543143700783" expanded="true" signature="632:823" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="833:999" ph="/* ReSharper disable once InconsistentNaming ... */" />
+            <marker date="1543143700783" expanded="true" signature="1040:1236" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="1269:1384" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="1422:1547" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="1579:1692" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="1724:1784" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="1827:1884" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="1918:2040" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="2085:2144" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="2189:2209" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="2249:2363" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="2433:2542" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="2605:2719" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="2809:2941" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="3000:3072" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="3149:3242" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="3319:3382" ph="{...}" />
+            <marker date="1543143700783" expanded="true" signature="3465:3565" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/Vector3FromComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <marker date="1543145096579" expanded="true" signature="6:136" ph="..." />
+            <marker date="1543145096579" expanded="true" signature="174:2787" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="324:2785" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="561:698" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="753:817" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="860:1496" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="898:1486" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="1553:1612" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="1674:1738" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="1790:1842" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="1898:1951" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="2046:2182" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="2247:2779" ph="{...}" />
+            <marker date="1543145096579" expanded="true" signature="2371:2582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="43" column="117" selection-start-line="43" selection-start-column="117" selection-end-line="43" selection-end-column="117" />
+          <folding>
+            <marker date="1543145407579" expanded="true" signature="6:213" ph="..." />
+            <marker date="1543145407579" expanded="true" signature="242:2845" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="294:2843" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="959:1038" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1085:1156" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1204:1283" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1334:1673" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1360:1663" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1731:1912" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1757:1902" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="1984:2040" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="2081:2289" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="2334:2560" ph="{...}" />
+            <marker date="1543145407579" expanded="true" signature="2624:2837" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetCollection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <marker date="1543047480105" expanded="true" signature="41:160" ph="{...}" />
+            <marker date="1543047480105" expanded="true" signature="146:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/ScriptableSet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1543145742173" expanded="false" signature="6:52" ph="..." />
+            <marker date="1543145742173" expanded="true" signature="75:596" ph="{...}" />
+            <marker date="1543145742173" expanded="true" signature="139:594" ph="{...}" />
+            <marker date="1543145742173" expanded="true" signature="230:284" ph="{...}" />
+            <marker date="1543145742173" expanded="true" signature="310:370" ph="{...}" />
+            <marker date="1543145742173" expanded="true" signature="404:498" ph="{...}" />
+            <marker date="1543145742173" expanded="true" signature="535:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetMember.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <marker date="1543146033703" expanded="true" signature="6:77" ph="..." />
+            <marker date="1543146033703" expanded="true" signature="100:1283" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="145:1281" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="286:364" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="434:497" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="519:653" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="679:789" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="814:921" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="947:1057" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="1077:1163" ph="{...}" />
+            <marker date="1543146033703" expanded="true" signature="1186:1275" ph="{...}" />
           </folding>
         </state>
       </provider>
