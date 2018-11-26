@@ -12,7 +12,7 @@
     <session id="238689253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="2" />
@@ -47,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="31" />
+            <state relative-caret-position="225">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <marker date="1542920588231" expanded="false" signature="6:53" ph="..." />
                 <marker date="1542920588231" expanded="true" signature="82:1090" ph="{...}" />
@@ -60,24 +60,6 @@
                 <marker date="1542920588231" expanded="true" signature="638:699" ph="{...}" />
                 <marker date="1542920588231" expanded="true" signature="740:832" ph="{...}" />
                 <marker date="1542920588231" expanded="true" signature="877:1082" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Xunity/Events/GameEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1535771272000" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-                <marker date="1535771272000" expanded="false" signature="272:318" ph="..." />
-                <marker date="1535771272000" expanded="true" signature="359:1211" ph="{...}" />
-                <marker date="1535771272000" expanded="true" signature="429:1209" ph="{...}" />
-                <marker date="1535771272000" expanded="true" signature="444:559" ph="/// The list of listeners that this event will notify if it is raised. ... " />
-                <marker date="1535771272000" expanded="true" signature="698:831" ph="{...}" />
-                <marker date="1535771272000" expanded="true" signature="897:1015" ph="{...}" />
-                <marker date="1535771272000" expanded="true" signature="1083:1203" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,6 +77,7 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Events/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/MaterialColorAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/IPlayable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Utils/Vector2Utils.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,7 +110,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Playables/Scale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableVariables/Vector3Variable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/GameBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Xunity/Events/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/GameObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/TransformExtensions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -200,19 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -229,6 +198,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -243,14 +218,6 @@
               <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Game" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Code" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -259,7 +226,7 @@
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Behaviours" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Events" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -267,56 +234,26 @@
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Extensions" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Shaders" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Editor" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="HyperEdit" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Xunity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Editor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Drawers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Playables" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +321,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -606,13 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Code/CameraController2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Base/ScriptableAsset.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Extensions/LinqExtensions.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/ScriptableFunctions/Vector3FromComponent.cs" />
@@ -621,8 +552,8 @@
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Sets/SetMember.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Behaviours/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="31" />
+        <state relative-caret-position="225">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <marker date="1542920588231" expanded="false" signature="6:53" ph="..." />
             <marker date="1542920588231" expanded="true" signature="82:1090" ph="{...}" />
@@ -643,20 +574,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Xunity/Events/GameEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1535771272000" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1535771272000" expanded="false" signature="272:318" ph="..." />
-            <marker date="1535771272000" expanded="true" signature="359:1211" ph="{...}" />
-            <marker date="1535771272000" expanded="true" signature="429:1209" ph="{...}" />
-            <marker date="1535771272000" expanded="true" signature="444:559" ph="/// The list of listeners that this event will notify if it is raised. ... " />
-            <marker date="1535771272000" expanded="true" signature="698:831" ph="{...}" />
-            <marker date="1535771272000" expanded="true" signature="897:1015" ph="{...}" />
-            <marker date="1535771272000" expanded="true" signature="1083:1203" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
