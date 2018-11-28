@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using Xunity.Morphables;
 using Xunity.Playables;
 
 namespace Game
 {
     public class Player : MonoBehaviour
     {
+        [SerializeField] IntMorph test1;
+        [SerializeField] StringMorph test2;
+
         [SerializeField] float jumpVelocity = 1;
         [SerializeField] float maxSpeed = 1;
         [SerializeField] Playable[] playablesOnJump;
