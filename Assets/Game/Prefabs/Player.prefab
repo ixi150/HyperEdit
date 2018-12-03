@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 58483026395687984}
   - component: {fileID: 50055310101432254}
   - component: {fileID: 114547702567324444}
+  - component: {fileID: 114567784369161178}
+  - component: {fileID: 114334344032457708}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -207,9 +209,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 2
+  m_LinearDrag: 0.2
   m_AngularDrag: 1
-  m_GravityScale: 0.15
+  m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: 2a49152ca3c05e84ea833e6be80e63b9, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -261,6 +263,45 @@ MonoBehaviour:
     reference: {fileID: 0}
     value: {x: 0, y: 0, z: -300}
     useConstant: 1
+--- !u!114 &114334344032457708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412398302981398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ced181439ea4a579be59c96e8a451d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  playOnEnable:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  isLooping:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  usesFixedUpdate:
+    reference: {fileID: 0}
+    value: 1
+    useConstant: 1
+  startForce:
+    reference: {fileID: 0}
+    value: {x: 0, y: 0}
+    useConstant: 1
+  constantForce:
+    reference: {fileID: 11400000, guid: 35faec17be810a64985d45601cc7d423, type: 2}
+    value: {x: 0, y: 0}
+    useConstant: 0
+  limit:
+    reference: {fileID: 11400000, guid: 98a13ac426ec8844c9537315823065b6, type: 2}
+    value: {x: 0, y: 0}
+    useConstant: 0
 --- !u!114 &114397733249846644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -351,8 +392,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sets:
-  - {fileID: 11400000, guid: 8d62f414bc1dfc7438ca9bd52e8b2f07, type: 2}
+    array:
+    - {fileID: 11400000, guid: 8d62f414bc1dfc7438ca9bd52e8b2f07, type: 2}
+    isArray: 0
   membershipScope: 0
+--- !u!114 &114567784369161178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412398302981398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ced181439ea4a579be59c96e8a451d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration:
+    reference: {fileID: 0}
+    value: 0
+    useConstant: 1
+  playOnEnable:
+    reference: {fileID: 0}
+    value: 0
+    useConstant: 1
+  isLooping:
+    reference: {fileID: 0}
+    value: 0
+    useConstant: 1
+  usesFixedUpdate:
+    reference: {fileID: 0}
+    value: 0
+    useConstant: 1
+  startForce:
+    reference: {fileID: 11400000, guid: e8277289f05660a45aac8153a851e531, type: 2}
+    value: {x: 0, y: 0}
+    useConstant: 0
+  constantForce:
+    reference: {fileID: 0}
+    value: {x: 0, y: 0}
+    useConstant: 1
+  limit:
+    reference: {fileID: 11400000, guid: 97aa904c19f29f543a6452455783785d, type: 2}
+    value: {x: 0, y: 0}
+    useConstant: 0
 --- !u!114 &114883418591343434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -364,11 +446,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f1ccae74fec3984bb651c057569bf6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 12
-  maxSpeed: 2
   playablesOnJump:
   - {fileID: 114397733249846644}
-  sceneReloadDelay: 3
+  - {fileID: 114567784369161178}
+  jumpCooldown:
+    reference: {fileID: 11400000, guid: 45a7f404062849d4fbe50375a953097a, type: 2}
+    value: 0
+    useConstant: 0
+  sceneReloadDelay: 1
 --- !u!212 &212270205145256484
 SpriteRenderer:
   m_ObjectHideFlags: 1
