@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25f32eaafe444245b3f758f4d03d63ca, type: 3}
   m_Name: JumpForce
   m_EditorClassIdentifier: 
-  value: {x: 1, y: 5}
+  value: {x: 0.5, y: 3}
   authorizedSources:
     restrictAccess: 0
     authorizedSources: []

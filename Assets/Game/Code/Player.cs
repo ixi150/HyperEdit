@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
+using Xunity.Behaviours;
 using Xunity.Extensions;
 using Xunity.Morphables;
 using Xunity.Playables;
@@ -9,7 +10,7 @@ using Xunity.ScriptableReferences;
 
 namespace Game
 {
-    public class Player : MonoBehaviour
+    public class Player : GameBehaviour
     {
         [SerializeField] Playable[] playablesOnJump;
         [SerializeField] FloatReference jumpCooldown;
@@ -36,11 +37,11 @@ namespace Game
             switch (collision.tag)
             {
                 case "Win":
-                    Invoke("ReloadScene", sceneReloadDelay);
+                    Invoke(ReloadScene, sceneReloadDelay);
                     break;
                 case "Lose":
-                    gameObject.SetActive(false);
-                    Invoke("ReloadScene", sceneReloadDelay);
+                    Deactivate();
+                    Invoke(ReloadScene, sceneReloadDelay);
                     break;
                 default:
                     break;
@@ -49,7 +50,10 @@ namespace Game
 
         void ReloadScene()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            transform.ResetPosition();
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            Activate();
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         IEnumerator InputCoorutine()
