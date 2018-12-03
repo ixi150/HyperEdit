@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fff6378726ed4e7d8d01bcc0cb281694, type: 3}
   m_Name: CameraSmoothTime
   m_EditorClassIdentifier: 
-  value: 0.3
-  changedEvent: {fileID: 0}
-  restrictAccess: 1
+  value: 0.5
   authorizedSources:
-  - name: 
-    monoScript: {fileID: 11500000, guid: b75f87ba11704e13a447f140e8f70a29, type: 3}
+    restrictAccess: 1
+    authorizedSources:
+    - name: Xunity.Behaviours.CameraController
+      monoScript: {fileID: 11500000, guid: 6e1d3e803e27b4d678d4fb8cde88ca57, type: 3}

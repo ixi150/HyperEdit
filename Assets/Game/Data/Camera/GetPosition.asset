@@ -9,10 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b5b248fe2f94016a54ffa5fe2672f34, type: 3}
-  m_Name: Rb2_Velocity_Offset
+  m_Name: GetPosition
   m_EditorClassIdentifier: 
-  method: 11
+  method: 0
   scale:
     reference: {fileID: 0}
-    value: 0.5
+    value: 1
+    useConstant: 1
+  axisScale:
+    reference: {fileID: 0}
+    value: {x: 1, y: 0.1, z: 0}
     useConstant: 1

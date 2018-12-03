@@ -1,18 +1,22 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
+using Xunity.Extensions;
 using Xunity.Morphables;
 using Xunity.Playables;
+using Xunity.ScriptableReferences;
 
 namespace Game
 {
     public class Player : MonoBehaviour
     {
-        [SerializeField] IntMorph test1;
-        [SerializeField] StringMorph test2;
-
-        [SerializeField] float jumpVelocity = 1;
-        [SerializeField] float maxSpeed = 1;
+        [SerializeField] new Vector2Reference constantForce;
+        [SerializeField] Vector2Reference jumpForce;
+        [SerializeField] ForceMode2D forceMode2D = ForceMode2D.Impulse;
+        [SerializeField] Vector2Reference maxSpeed;
         [SerializeField] Playable[] playablesOnJump;
+        [SerializeField] FloatReference jumpCooldown;
         [SerializeField] float sceneReloadDelay = 3;
 
         Rigidbody2D rb;
@@ -27,22 +31,27 @@ namespace Game
             rb = GetComponent<Rigidbody2D>();
         }
 
+        void OnEnable()
+        {
+            StartCoroutine(InputCoorutine());
+        }
+
         void Update()
         {
-            rb.velocity = new Vector2(maxSpeed, rb.velocity.y);
-            if (ShouldJump() && CanJump)
-            {
-                Jump();
-            }
+
+        }
+
+        void FixedUpdate()
+        {
+            rb.AddForce((Vector2) constantForce * Time.deltaTime);
+            rb.velocity = rb.velocity.LimitedTo(maxSpeed);
         }
 
         void Jump()
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpVelocity);
+            rb.AddForce(jumpForce, forceMode2D);
             foreach (var playable in playablesOnJump)
-            {
                 playable.Play();
-            }
         }
 
         bool ShouldJump()
@@ -70,6 +79,21 @@ namespace Game
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+        IEnumerator InputCoorutine()
+        {
+            while (true)
+            {
+                if (ShouldJump() && CanJump)
+                {
+                    Jump();
+                    yield return new WaitForSeconds(jumpCooldown);
+                }
+                else
+                {
+                    yield return null;
+                }
+            }
+        }
     }
 }
-

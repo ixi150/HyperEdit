@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f91e7ebacf4045b69f5e3bb015c5c11e, type: 3}
   m_Name: CameraOffset
   m_EditorClassIdentifier: 
-  value: {x: 0.5, y: 1, z: -10}
-  restrictAccess: 1
-  authorizedSources: []
+  value: {x: 2.88, y: 0, z: -10}
+  authorizedSources:
+    restrictAccess: 1
+    authorizedSources: []

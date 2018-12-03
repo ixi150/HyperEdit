@@ -109,7 +109,8 @@ MonoBehaviour:
     reference: {fileID: 11400000, guid: c6826c3f29f456343836cfd1b4b77dd6, type: 2}
     value: 0.5
     useConstant: 0
-  sortModeOpaque: 2
+  sortModeOpaque: 0
   sortModeTransparency: 2
   offsetModifiers:
+  - {fileID: 11400000, guid: 10f00641b859fc84fbb6c55a342b7f06, type: 2}
   - {fileID: 11400000, guid: a6014180da341c94098a429e7730e6ef, type: 2}
