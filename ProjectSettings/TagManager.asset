@@ -15,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - LightMask
+  - DarkLightRender
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
   - name: Background
     uniqueID: 2473553561
     locked: 0
+  - name: LightMask
+    uniqueID: 4170151089
+    locked: 0
   - name: Enemies
     uniqueID: 3168778383
     locked: 0
@@ -54,6 +57,9 @@ TagManager:
     locked: 0
   - name: World
     uniqueID: 708288359
+    locked: 0
+  - name: DarkLightRender
+    uniqueID: 1046966493
     locked: 0
   - name: Foreground
     uniqueID: 2359903787
