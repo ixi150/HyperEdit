@@ -19,6 +19,7 @@ namespace Game
         void OnEnable()
         {
             StartCoroutine(InputCoorutine());
+            Application.targetFrameRate = 120;
         }
 
         void Jump()
