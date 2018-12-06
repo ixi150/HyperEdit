@@ -54,7 +54,7 @@ namespace BitStrap
 			rect.y += 2.0f;
 
 			bool reset = false;
-			if( GUI.Button( rect, GUIContent.none, EditorHelper.Styles.Minus ) )
+			if( GUI.Button( rect, GUIContent.none, new GUIStyle("TL EndPoint") ) )
 			{
 				GUI.FocusControl( "" );
 				reset = true;

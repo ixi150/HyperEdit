@@ -140,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sets:
     array:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 365188e0d35066a4bab5e4f71c7de96a, type: 2}
     isArray: 0
   membershipScope: 0
 --- !u!212 &212242722567362424

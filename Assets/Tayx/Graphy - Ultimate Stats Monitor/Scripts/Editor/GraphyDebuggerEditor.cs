@@ -10,17 +10,16 @@
  * -------------------------------------*/
 
 using System;
-using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Tayx.Graphy;
 using UnityEditor;
-using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine;
 
-namespace Tayx.Graphy
+namespace Tayx.Scripts.Editor
 {
     [CustomEditor(typeof(GraphyDebugger))]
-    internal class GraphyDebuggerEditor : Editor
+    internal class GraphyDebuggerEditor : UnityEditor.Editor
     {
         /* ----- TODO: ----------------------------
          * Check why we're using public for the Unity Callbacks when we dont in GraphyManagerEditor
