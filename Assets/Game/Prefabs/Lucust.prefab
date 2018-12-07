@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 199770060526884810}
   - component: {fileID: 61357899878135386}
   - component: {fileID: 198805376011057912}
+  - component: {fileID: 114253915583939080}
   m_Layer: 9
   m_Name: Lucust
   m_TagString: Untagged
@@ -131,6 +132,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9, y: 20}
   m_EdgeRadius: 0
+--- !u!114 &114253915583939080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785307012579462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48530050b91979c4390335a935c0414c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentName:
+    reference: {fileID: 11400000, guid: fea121d47ea6f83458e4c0af49f2a111, type: 2}
+    value: 
+    useConstant: 0
 --- !u!114 &114382391645130834
 MonoBehaviour:
   m_ObjectHideFlags: 1

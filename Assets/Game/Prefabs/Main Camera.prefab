@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 20742930700251052}
   - component: {fileID: 81953479715508202}
   - component: {fileID: 114798564610032212}
+  - component: {fileID: 114811920151499268}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -130,7 +131,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1768040812350988}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4189017178836986}
@@ -159,8 +160,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 9
-  far clip plane: 11
+  near clip plane: 5
+  far clip plane: 20
   field of view: 100
   orthographic: 0
   orthographic size: 10
@@ -199,7 +200,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 1
+  near clip plane: 5
   far clip plane: 100
   field of view: 100
   orthographic: 0
@@ -352,6 +353,21 @@ MonoBehaviour:
   offsetModifiers:
   - {fileID: 11400000, guid: 10f00641b859fc84fbb6c55a342b7f06, type: 2}
   - {fileID: 11400000, guid: a6014180da341c94098a429e7730e6ef, type: 2}
+--- !u!114 &114811920151499268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768040812350988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48530050b91979c4390335a935c0414c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentName:
+    reference: {fileID: 11400000, guid: 39279c6d8a2c010469d0d3cb53436b5c, type: 2}
+    value: 
+    useConstant: 0
 --- !u!222 &222133405212913248
 CanvasRenderer:
   m_ObjectHideFlags: 1
