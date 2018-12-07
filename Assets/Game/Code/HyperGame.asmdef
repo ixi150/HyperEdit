@@ -1,0 +1,10 @@
+{
+    "name": "HyperGame",
+    "references": [
+        "Xunity"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
