@@ -1,3 +1,7 @@
 [submodule "Assets/Xunity"]
 	path = Assets/Xunity
 	url = https://github.com/ixi150/Xunity
+[submodule "Assets/unity-scene-inspector"]
+	path = Assets/unity-scene-inspector
+	url = https://github.com/daancode/unity-scene-inspector.git
+	branch = master
