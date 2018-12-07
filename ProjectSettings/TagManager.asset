@@ -40,9 +40,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 2473553561
     locked: 0
@@ -66,6 +63,9 @@ TagManager:
     locked: 0
   - name: Locust
     uniqueID: 4079955635
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Foreground
     uniqueID: 2359903787
