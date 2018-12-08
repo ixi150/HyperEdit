@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fff6378726ed4e7d8d01bcc0cb281694, type: 3}
   m_Name: JumpCooldown
   m_EditorClassIdentifier: 
-  value: 0.2
+  value: 0.05
   authorizedSources:
     restrictAccess: 0
     authorizedSources: []

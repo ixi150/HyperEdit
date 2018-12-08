@@ -52,9 +52,9 @@ namespace Game
         void ReloadScene()
         {
             transform.ResetPosition();
+            Position = GameObject.FindWithTag("PlayerSpawn").transform.position;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Activate();
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         IEnumerator InputCoorutine()

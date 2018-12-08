@@ -17,7 +17,7 @@ namespace Game
             get { return snap; }
         }
 
-        void LateUpdate()
+        void Update()
         {
             var target = targetReference.Items.NotNull().FirstOrDefault();
             if (target == null)
