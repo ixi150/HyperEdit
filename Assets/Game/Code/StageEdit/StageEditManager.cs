@@ -11,11 +11,12 @@ namespace Game.StageEdit
     public class StageEditManager : ScriptableObject
     {
         [SerializeField] Vector2Int pixelSize = new Vector2Int(2, 2);
-        [SerializeField] [TextArea(5, 50)] string json;
         [SerializeField] StageData data;
+        [SerializeField] [TextArea(5, 50)] string json;
 
         readonly Dictionary<Vector2Int, Item> items = new Dictionary<Vector2Int, Item>();
-        GraphicRaycaster raycaster;
+        readonly Dictionary<Vector2Int, Item> itemRoots = new Dictionary<Vector2Int, Item>();
+        
         Camera camera;
 
         StageData Data
@@ -28,16 +29,6 @@ namespace Game.StageEdit
             }
         }
 
-        public GraphicRaycaster Raycaster
-        {
-            get
-            {
-                if (raycaster == null)
-                    raycaster = FindObjectOfType<GraphicRaycaster>();
-                return raycaster;
-            }
-        }
-        
         public Vector2Int PixelSize
         {
             get { return pixelSize; }
@@ -56,40 +47,71 @@ namespace Game.StageEdit
 
         public bool TryGetItem(Vector2Int coord, out Item item)
         {
-            return items.TryGetValue(coord, out item);
+            bool success = items.TryGetValue(coord, out item);
+            if (success && item == null)
+                items.Remove(coord);
+            return item;
         }
 
         public void RemoveItem(Vector2Int coord)
         {
-            if (items.ContainsKey(coord))
+            Item item;
+            bool success = itemRoots.TryGetValue(coord, out item);
+            if (success)
             {
-                items.Remove(coord);
+                itemRoots.Remove(coord);
+            }
+
+            foreach (var key in items.Keys.ToArray())
+            {
+                if (items[key] == item)
+                    items.Remove(key);
             }
         }
-        
+
         public void AddItem(Item item)
         {
             var coord = SnapPosition(item.Position);
+            itemRoots[coord] = item;
+            
+            for (int y = item.Size.yMin; y < item.Size.yMax; y++)
+            for (int x = item.Size.xMin; x < item.Size.xMax; x++)
+            {
+                var offset = new Vector2Int
+                (
+                    Mathf.FloorToInt(Mathf.Sign(item.transform.localScale.x) * PixelSize.x * x),
+                    Mathf.FloorToInt(Mathf.Sign(item.transform.localScale.y) * PixelSize.y * y)
+                );
+                AddItem(item, coord + offset);
+            }
+        }
+
+        void AddItem(Item item, Vector2Int coord)
+        {
             if (items.ContainsKey(coord))
+            {
+                if (items[coord])
                 Destroy(items[coord].gameObject);
+                RemoveItem(coord);
+            }
 
             items[coord] = item;
         }
 
         public void ClearMap()
         {
-            foreach (var item in items.Values)
-            {
-                Destroy(item.gameObject);
-            }
+            foreach (var item in itemRoots.Values)
+                if (item && item.gameObject)
+                    Destroy(item.gameObject);
 
             items.Clear();
+            itemRoots.Clear();
         }
 
         public void SaveStage()
         {
             Data.ClearItems();
-            foreach (var pair in items)
+            foreach (var pair in itemRoots)
             {
                 Data.AddItem(pair.Key, pair.Value.Id);
             }
@@ -112,7 +134,7 @@ namespace Game.StageEdit
                 Item prefab;
                 if (!prefabDictionary.TryGetValue(item.id, out prefab))
                     continue;
-                AddItem(Instantiate(prefab, item.coord.ToVector2(), Quaternion.identity));
+                AddItem(Instantiate(prefab, item.coord.ToVector2(), prefab.transform.rotation));
             }
         }
 
@@ -139,7 +161,7 @@ namespace Game.StageEdit
         {
             if (IsMouseOverUi())
                 return false;
-            
+
             var pos = GetWorldMouseSnapPosition();
             return Data.Bounds.Contains(pos);
         }
@@ -148,11 +170,23 @@ namespace Game.StageEdit
         {
             if (IsPointOverUi(worldPoint))
                 return false;
-            
+
             var pos = SnapPosition(worldPoint);
             return Data.Bounds.Contains(pos);
         }
-        
+
+        public bool IsItemInPlacablePosition(Item item)
+        {
+            var pos = item.Position;
+            if (!IsPointInPlacablePosition(pos))
+                return false;
+
+            int y = SnapPosition(pos).y;
+            return item.Placement.ContainsFlag(Item.PlacementRule.Ceil) && Data.Bounds.yMax - 2 == y
+                   || item.Placement.ContainsFlag(Item.PlacementRule.Floor) && Data.Bounds.yMin == y
+                   || item.Placement.ContainsFlag(Item.PlacementRule.Mid);
+        }
+
         public bool IsMouseOverUi()
         {
             return IsPointOverUi(Input.mousePosition);
@@ -160,11 +194,12 @@ namespace Game.StageEdit
 
         public bool IsPointOverUi(Vector3 screenPoint)
         {
-            var pointerData = new PointerEventData(EventSystem.current);
+            if (EventSystem.current == null)
+                return false;
+            var eventData = new PointerEventData(EventSystem.current) {position = screenPoint};
             var results = new List<RaycastResult>();
-            pointerData.position = screenPoint;
-            Raycaster.Raycast(pointerData, results);
-            return results.Count > 0;
+            EventSystem.current.RaycastAll(eventData, results);
+            return results.Count > 0; // || !Screen.safeArea.Contains(screenPoint);
         }
 
         int SnapWorldAxis(Vector2 worldPos, int axis)

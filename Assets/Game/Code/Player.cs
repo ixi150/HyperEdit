@@ -18,6 +18,8 @@ namespace Game
 
         void OnEnable()
         {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            Position = GameObject.FindWithTag("PlayerSpawn").transform.position;
             StartCoroutine(InputCoorutine());
         }
 
@@ -37,6 +39,7 @@ namespace Game
             switch (collision.tag)
             {
                 case "Win":
+                    Deactivate();
                     Invoke(ReloadScene, sceneReloadDelay);
                     break;
                 case "Lose":
@@ -50,9 +53,6 @@ namespace Game
 
         void ReloadScene()
         {
-            transform.ResetPosition();
-            Position = GameObject.FindWithTag("PlayerSpawn").transform.position;
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Activate();
         }
 

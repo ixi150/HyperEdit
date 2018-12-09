@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Game.StageEdit;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,17 +13,16 @@ namespace Game
         [SerializeField] Rect moveArea;
         [SerializeField] float damping = 1;
         [SerializeField] float dragAmount = 1;
+        [SerializeField] StageEditManager stageEditManager;
 
         bool isMouseDown;
         new Camera camera;
         Transform cameraTransform;
         Vector3 mouseDownCameraPosition;
-
         Vector3 mouseDownMousePosition;
         Vector3 lastMousePosition;
 
         Vector2 dragVelocity;
-        GraphicRaycaster raycaster;
 
         public void InteruptDragging()
         {
@@ -33,35 +33,26 @@ namespace Game
         {
             base.Awake();
             camera = GetComponentInChildren<Camera>();
+            if (camera == null)
+                camera = Camera.main;
+            if (camera == null)
+                return;
             cameraTransform = camera.transform;
-        }
-
-        void Start()
-        {
-            raycaster = FindObjectOfType<GraphicRaycaster>();
         }
 
         Vector3 GetWorldMousePosition()
         {
-            var mousePos = Input.mousePosition.Modified(z: -camera.transform.position.z);
+            var mousePos = Input.mousePosition.Modified(z: -cameraTransform.position.z);
             return camera.ScreenToWorldPoint(mousePos);
         }
 
         Vector3 GetVieportMousePosition()
         {
-            var mousePos = Input.mousePosition.Modified(z: -camera.transform.position.z);
+            var mousePos = Input.mousePosition.Modified(z: -cameraTransform.position.z);
             return camera.ScreenToViewportPoint(mousePos);
         }
 
-        bool IsUiClicked()
-        {
-            var pointerData = new PointerEventData(EventSystem.current);
-            var results = new List<RaycastResult>();
-            pointerData.position = Input.mousePosition;
-            raycaster.Raycast(pointerData, results);
-            return results.Count > 0;
-        }
-
+   
         void Update()
         {
             if (isMouseDown)
@@ -102,9 +93,9 @@ namespace Game
         void UpdateWaitingForMouse()
         {
             dragVelocity = Vector2.MoveTowards(dragVelocity, Vector2.zero, Time.deltaTime * damping);
-            camera.transform.position += (Vector3) (dragVelocity * Time.deltaTime);
+            cameraTransform.position += (Vector3) (dragVelocity * Time.deltaTime);
 
-            if (Input.GetMouseButtonDown(0) && !IsUiClicked())
+            if (Input.GetMouseButtonDown(0) && !stageEditManager.IsMouseOverUi())
             {
                 isMouseDown = true;
                 lastMousePosition = mouseDownMousePosition = GetVieportMousePosition();

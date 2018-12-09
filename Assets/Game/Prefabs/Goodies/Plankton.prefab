@@ -28,12 +28,13 @@ GameObject:
   - component: {fileID: 114324272721855680}
   - component: {fileID: 114250352677419640}
   - component: {fileID: 114205153308447672}
+  - component: {fileID: 114966249133155090}
   m_Layer: 0
   m_Name: Plankton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1244390184348698
 GameObject:
@@ -60,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 1244390184348698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6138465, y: 2.6138465, z: 2.6138465}
+  m_LocalScale: {x: 0.964867, y: 0.964867, z: 0.964867}
   m_Children: []
   m_Father: {fileID: 4510666306395340}
   m_RootOrder: 0
@@ -72,8 +73,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1094179997977368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62.52, y: 4.74, z: 0.2890625}
-  m_LocalScale: {x: 0.76172, y: 0.76172, z: 0.76172}
+  m_LocalPosition: {x: 8.887339, y: -0.1031909, z: 0}
+  m_LocalScale: {x: 1.981378, y: 1.981378, z: 1.981378}
   m_Children:
   - {fileID: 4013475950222152}
   m_Father: {fileID: 0}
@@ -93,7 +94,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.48
+  m_Radius: 0.13
 --- !u!114 &114139607112249816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -187,6 +188,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: plankton
+  placement: -1
+  size:
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!114 &114250352677419640
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -328,8 +335,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.5
-      value: 1.1512785
+      time: 0.4954834
+      value: 1.2709379
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -348,6 +355,25 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114966249133155090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094179997977368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37c90c6d68e6904f90d1a0e47dc9966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed:
+    reference: {fileID: 0}
+    value: 0.2
+    useConstant: 1
+  amplitude:
+    reference: {fileID: 0}
+    value: 0.15
+    useConstant: 1
 --- !u!212 &212242722567362424
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -383,8 +409,8 @@ SpriteRenderer:
   m_SortingLayerID: -771037233
   m_SortingLayer: -8
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8985044d4ecaa1c4d97a9dc9ee25e96a, type: 3}
-  m_Color: {r: 0.09620416, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 369edd768ac5f19498cbda028673ced6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -430,7 +456,7 @@ SpriteRenderer:
   m_SortingLayer: -9
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 667d23ad7311ec0498787ad11dab484d, type: 3}
-  m_Color: {r: 0.09620416, g: 1, b: 0, a: 0.6156863}
+  m_Color: {r: 0.4224813, g: 0.8867924, b: 0.5000339, a: 0.59607846}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

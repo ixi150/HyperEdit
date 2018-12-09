@@ -26,25 +26,25 @@ namespace Game.StageEdit
 
         IEnumerator DragYourself(Item draggedItem)
         {
-            IsDragging = true;
+            //IsDragging = true;
             var draggedObjectRenderer = draggedItem.GetComponentInChildren<SpriteRenderer>();
             int draggedObjectSortingLayer = draggedObjectRenderer.sortingLayerID;
             draggedObjectRenderer.sortingLayerID = layerWhileDragging.id;
-            foreach (var mono in draggedItem.GetComponentsInChildren<MonoBehaviour>())
+            foreach (var mono in draggedItem.GetComponentsInChildren<PingPongMove>())
                 mono.enabled = false;
 
             while (Input.GetMouseButton(0))
             {
-                draggedItem.Position = stageEditManager.IsMouseInPlacablePosition()
-                    ? (Vector3) stageEditManager.GetWorldMouseSnapPosition().ToVector2()
-                    : draggedItem.Position = stageEditManager.GetWorldMousePosition();
+                draggedItem.Position = stageEditManager.GetWorldMousePosition();
+                if (stageEditManager.IsItemInPlacablePosition(draggedItem))
+                    draggedItem.Position = stageEditManager.GetWorldMouseSnapPosition().ToVector2();
                 yield return null;
             }
 
-            if (stageEditManager.IsMouseInPlacablePosition())
+            if (stageEditManager.IsItemInPlacablePosition(draggedItem))
             {
                 draggedObjectRenderer.sortingLayerID = draggedObjectSortingLayer;
-                foreach (var mono in draggedItem.GetComponentsInChildren<MonoBehaviour>())
+                foreach (var mono in draggedItem.GetComponentsInChildren<PingPongMove>())
                     mono.enabled = true;
                 stageEditManager.AddItem(draggedItem);
             }

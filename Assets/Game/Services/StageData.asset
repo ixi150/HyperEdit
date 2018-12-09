@@ -18,23 +18,79 @@ MonoBehaviour:
     height: 14
   width: 10
   items:
-  - coord: {x: 6, y: 0}
+  - coord: {x: 2, y: 0}
+    id: jelly
+  - coord: {x: 6, y: -4}
     id: mine
+  - coord: {x: 6, y: 4}
+    id: mine
+  - coord: {x: 10, y: -4}
+    id: mine
+  - coord: {x: 10, y: 4}
+    id: mine
+  - coord: {x: 8, y: 0}
+    id: jelly
+  - coord: {x: 14, y: 0}
+    id: jelly
+  - coord: {x: 20, y: -4}
+    id: jelly
+  - coord: {x: 20, y: 4}
+    id: jelly
+  - coord: {x: 24, y: 2}
+    id: mine
+  - coord: {x: 22, y: -6}
+    id: pla
+  - coord: {x: 24, y: -6}
+    id: pla
+  - coord: {x: 26, y: -6}
+    id: pla
+  - coord: {x: 18, y: 0}
+    id: plankton
   - coord: {x: 2, y: -2}
     id: plankton
-  - coord: {x: 8, y: -2}
-    id: pla
-  - coord: {x: 2, y: -6}
-    id: pla
-  - coord: {x: 2, y: 2}
-    id: pla
   - coord: {x: 4, y: -4}
-    id: jelly
+    id: plankton
+  - coord: {x: 6, y: -6}
+    id: plankton
   - coord: {x: 8, y: -4}
-    id: mine
-  - coord: {x: 0, y: 2}
+    id: plankton
+  - coord: {x: 10, y: -2}
+    id: plankton
+  - coord: {x: 12, y: 0}
     id: plankton
   - coord: {x: 14, y: 2}
-    id: mine
-  - coord: {x: 14, y: -2}
+    id: plankton
+  - coord: {x: 16, y: 2}
+    id: plankton
+  - coord: {x: 22, y: -2}
+    id: plankton
+  - coord: {x: 20, y: -2}
+    id: plankton
+  - coord: {x: 24, y: -2}
+    id: plankton
+  - coord: {x: 26, y: -2}
+    id: plankton
+  - coord: {x: 28, y: -6}
     id: pla
+  - coord: {x: 28, y: 0}
+    id: jelly
+  - coord: {x: 28, y: -2}
+    id: jelly
+  - coord: {x: 30, y: 0}
+    id: jelly
+  - coord: {x: 30, y: -2}
+    id: jelly
+  - coord: {x: 36, y: -2}
+    id: mine
+  - coord: {x: 38, y: -2}
+    id: mine
+  - coord: {x: 54, y: -2}
+    id: mine
+  - coord: {x: 54, y: 0}
+    id: mine
+  - coord: {x: 54, y: 2}
+    id: mine
+  - coord: {x: 54, y: 4}
+    id: mine
+  - coord: {x: 52, y: 4}
+    id: mine

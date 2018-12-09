@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Watermine
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 092476098b337774e962c9f255a89cc6, type: 2}
-  icon: {fileID: 21300000, guid: 05369b779c28f424f8c1c0591a2ea641, type: 3}
+  icon: {fileID: 21300000, guid: 66fd9656470df21438f3bb290d139470, type: 3}
   prefab: {fileID: 114789497735724032, guid: bd6c0fe945561a14c9576c4ec34f6c52, type: 2}

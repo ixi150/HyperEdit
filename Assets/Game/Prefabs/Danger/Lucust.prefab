@@ -175,6 +175,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: locust
+  placement: -1
+  size:
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!114 &114719781820053746
 MonoBehaviour:
   m_ObjectHideFlags: 1

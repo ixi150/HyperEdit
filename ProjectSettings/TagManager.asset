@@ -62,11 +62,11 @@ TagManager:
   - name: Locust
     uniqueID: 4079955635
     locked: 0
-  - name: Foreground
-    uniqueID: 2359903787
-    locked: 0
   - name: DarkLightRender
     uniqueID: 1046966493
+    locked: 0
+  - name: Foreground
+    uniqueID: 2359903787
     locked: 0
   - name: UI
     uniqueID: 2479270375
