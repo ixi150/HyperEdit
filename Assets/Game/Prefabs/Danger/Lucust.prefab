@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 61357899878135386}
   - component: {fileID: 198805376011057912}
   - component: {fileID: 114253915583939080}
+  - component: {fileID: 114407611678639466}
   m_Layer: 9
   m_Name: Lucust
   m_TagString: Untagged
@@ -162,6 +163,18 @@ MonoBehaviour:
   target: {fileID: 0}
   originPs: {fileID: 198600899504718484}
   targetPs: {fileID: 198284652671947272}
+--- !u!114 &114407611678639466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785307012579462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f64b828b204433b164eb131d0844c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: locust
 --- !u!114 &114719781820053746
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14012,7 +14025,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -215011661
-  m_SortingLayer: -3
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -14069,7 +14082,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -215011661
-  m_SortingLayer: -3
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -14126,7 +14139,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1388356139
-  m_SortingLayer: -5
+  m_SortingLayer: -6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0

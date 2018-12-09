@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 114139607112249816}
   - component: {fileID: 114324272721855680}
   - component: {fileID: 114250352677419640}
+  - component: {fileID: 114205153308447672}
   m_Layer: 0
   m_Name: Plankton
   m_TagString: Untagged
@@ -174,6 +175,18 @@ MonoBehaviour:
     reference: {fileID: 0}
     value: 0
     useConstant: 1
+--- !u!114 &114205153308447672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094179997977368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f64b828b204433b164eb131d0844c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: plankton
 --- !u!114 &114250352677419640
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -368,7 +381,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -771037233
-  m_SortingLayer: -7
+  m_SortingLayer: -8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8985044d4ecaa1c4d97a9dc9ee25e96a, type: 3}
   m_Color: {r: 0.09620416, g: 1, b: 0, a: 1}
@@ -414,7 +427,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -124816207
-  m_SortingLayer: -8
+  m_SortingLayer: -9
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 667d23ad7311ec0498787ad11dab484d, type: 3}
   m_Color: {r: 0.09620416, g: 1, b: 0, a: 0.6156863}

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c1db9e6a894acda062843a2c5ecf7e, type: 3}
   m_Name: PlanktonJuiceDefault
   m_EditorClassIdentifier: 
-  value: 0.677
+  value: 0.349
   authorizedSources:
     restrictAccess: 1
     authorizedSources: []

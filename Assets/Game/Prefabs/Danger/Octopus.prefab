@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 95630812633856294}
   - component: {fileID: 58914502073451608}
   - component: {fileID: 114797399964513732}
+  - component: {fileID: 114273549436925760}
+  - component: {fileID: 114401414919184668}
   m_Layer: 0
   m_Name: Octopus
   m_TagString: Lose
@@ -83,7 +85,7 @@ CircleCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
@@ -106,6 +108,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114273549436925760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725875919932530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48530050b91979c4390335a935c0414c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentName:
+    reference: {fileID: 11400000, guid: fea121d47ea6f83458e4c0af49f2a111, type: 2}
+    value: 
+    useConstant: 0
+--- !u!114 &114401414919184668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725875919932530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f64b828b204433b164eb131d0844c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: jelly
 --- !u!114 &114797399964513732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -119,11 +148,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed:
     reference: {fileID: 0}
-    value: 0.25
+    value: 0.35
     useConstant: 1
   amplitude:
     reference: {fileID: 0}
-    value: 1.5
+    value: 0.15
     useConstant: 1
 --- !u!212 &212895842262937396
 SpriteRenderer:
@@ -158,7 +187,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1126188913
-  m_SortingLayer: -6
+  m_SortingLayer: -7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9deca65eff5514be99809c3250fcbcfd, type: 3}
   m_Color: {r: 0.5960751, g: 0.8962264, b: 0.800764, a: 1}
@@ -204,7 +233,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -124816207
-  m_SortingLayer: -8
+  m_SortingLayer: -9
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 667d23ad7311ec0498787ad11dab484d, type: 3}
   m_Color: {r: 1, g: 0, b: 0.083632946, a: 0.79607844}
