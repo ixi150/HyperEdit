@@ -1,14 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 using Xunity.Behaviours;
-using Xunity.Extensions;
-using Xunity.Morphables;
 using Xunity.Playables;
 using Xunity.ScriptableReferences;
 
-namespace Game
+namespace Game.Code
 {
     public class Player : GameBehaviour
     {

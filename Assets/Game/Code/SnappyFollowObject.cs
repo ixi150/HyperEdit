@@ -5,7 +5,7 @@ using Xunity.Extensions;
 using Xunity.ScriptableReferences;
 using Xunity.Sets;
 
-namespace Game
+namespace Game.Code
 {
     public class SnappyFollowObject : GameBehaviour
     {

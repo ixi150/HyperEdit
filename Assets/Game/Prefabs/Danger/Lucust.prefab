@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lerp: 0
-  target: {fileID: 0}
+  target: {fileID: 11400000, guid: 5ad78586ff9bdec4bb9d1c790cb71e66, type: 2}
   originPs: {fileID: 198600899504718484}
   targetPs: {fileID: 198284652671947272}
 --- !u!114 &114407611678639466
@@ -790,7 +790,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 15
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -5380,7 +5380,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 15
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -9970,7 +9970,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 15
     size3D: 0
     rotation3D: 0
     gravityModifier:

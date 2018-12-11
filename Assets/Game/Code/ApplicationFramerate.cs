@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Game
+namespace Game.Code
 {
     public static class ApplicationFramerate
     {

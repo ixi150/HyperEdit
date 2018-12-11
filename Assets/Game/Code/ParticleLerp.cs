@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Xunity.LerpEffects;
+using Xunity.Sets;
 using Particle = UnityEngine.ParticleSystem.Particle;
 
-namespace Game
+namespace Game.Code
 {
     [ExecuteInEditMode]
     [RequireComponent(typeof(ParticleSystem))]
@@ -13,7 +15,7 @@ namespace Game
         const int INIT_ARRAY_SIZE = 100;
         const float SCALE = .5f;
 
-        [SerializeField] Transform target;
+        [SerializeField] SetCollection target;
 
         [FormerlySerializedAs("origin")] [SerializeField]
         ParticleSystem originPs;
@@ -32,8 +34,7 @@ namespace Game
 
         public Transform Target
         {
-            get { return target; }
-            set { target = value; }
+            get { return target.Items.FirstOrDefault(); }
         }
 
         public override void Refresh()
@@ -44,10 +45,10 @@ namespace Game
             int targetCount = GetParticles(targetPs, targetParticles);
 
             originOffset = GetOffset(originPs);
-            if (target)
+            if (Target)
             {
-                targetOffset = target.position;
-                targetMultiplier = SCALE * target.lossyScale.x;
+                targetOffset = Target.position;
+                targetMultiplier = SCALE * Target.lossyScale.x;
             }
 
             for (var i = 0; i < count; i++)

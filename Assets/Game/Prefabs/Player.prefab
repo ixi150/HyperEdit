@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 114262121823056150}
   - component: {fileID: 114547702567324444}
   - component: {fileID: 114488098695332248}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -83,6 +83,7 @@ GameObject:
   - component: {fileID: 212088893562544572}
   - component: {fileID: 114927348459228114}
   - component: {fileID: 114991394797472040}
+  - component: {fileID: 114589624401861612}
   m_Layer: 8
   m_Name: LightMask
   m_TagString: Player
@@ -610,6 +611,22 @@ MonoBehaviour:
     reference: {fileID: 11400000, guid: 97aa904c19f29f543a6452455783785d, type: 2}
     value: {x: 0, y: 0}
     useConstant: 0
+--- !u!114 &114589624401861612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1815320819792236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8253e3a2e3604c7ca7dbf26394e389fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sets:
+    array:
+    - {fileID: 11400000, guid: 5ad78586ff9bdec4bb9d1c790cb71e66, type: 2}
+    isArray: 0
+  membershipScope: 0
 --- !u!114 &114595011377716340
 MonoBehaviour:
   m_ObjectHideFlags: 1

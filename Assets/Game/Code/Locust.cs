@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using Xunity.Behaviours;
 using Xunity.ScriptableReferences;
 using Xunity.ScriptableVariables;
 
-namespace Game
+namespace Game.Code
 {
     public class Locust : GameBehaviour
     {
@@ -19,7 +18,7 @@ namespace Game
         bool isChasing;
         float elapsed;
 
-        void Update()
+        void FixedUpdate()
         {
             elapsed += Time.deltaTime * (isChasing ? 1 : -1);
             elapsed = Mathf.Clamp(elapsed, 0, duration);
@@ -28,21 +27,15 @@ namespace Game
             {
                 planktonValue.Set(planktonValue - planktonReducePerSecond * Time.deltaTime, this);
             }
+
+            isChasing = false;
         }
 
-        void OnTriggerEnter2D(Collider2D other)
+        void OnTriggerStay2D(Collider2D other)
         {
             if (other.CompareTag(TAG))
             {
                 isChasing = true;
-            }
-        }
-
-        void OnTriggerExit2D(Collider2D other)
-        {
-            if (other.CompareTag(TAG))
-            {
-                isChasing = false;
             }
         }
     }

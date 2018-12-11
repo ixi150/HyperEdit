@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using Xunity.Behaviours;
 
-namespace Game
+namespace Game.Code
 {
     public class GameModeManager : GameBehaviour
     {

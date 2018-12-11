@@ -3,7 +3,7 @@ using Xunity.Behaviours;
 using Xunity.ScriptableReferences;
 using Xunity.ScriptableVariables;
 
-namespace Game
+namespace Game.Code
 {
     public class OnTriggerAddFloat : GameBehaviour
     {

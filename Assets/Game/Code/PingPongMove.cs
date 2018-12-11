@@ -2,7 +2,7 @@
 using Xunity.Behaviours;
 using Xunity.ScriptableReferences;
 
-namespace Game
+namespace Game.Code
 {
     public class PingPongMove : GameBehaviour
     {

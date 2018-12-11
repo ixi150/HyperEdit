@@ -2,9 +2,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using Xunity.Behaviours;
 using Xunity.ScriptableReferences;
-using Xunity.ScriptableVariables;
 
-namespace Game
+namespace Game.Code
 {
     public class OnTriggerAction : GameBehaviour
     {

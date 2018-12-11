@@ -1,0 +1,10 @@
+{
+    "name": "Game",
+    "references": [
+        "Xunity"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

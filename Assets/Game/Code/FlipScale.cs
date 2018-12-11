@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Xunity.Behaviours;
 
-namespace Game
+namespace Game.Code
 {
     public class FlipScale : GameBehaviour
     {
