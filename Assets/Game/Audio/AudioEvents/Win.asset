@@ -9,16 +9,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13a9f940313d06d4caed9863bf024ebf, type: 3}
-  m_Name: PlayerBump
+  m_Name: Win
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: bdb73da4bf5d5eb439bcbbbfa3768fd4, type: 3}
+  - {fileID: 8300000, guid: 6f1f1d3d4d05a6d41baee3d06e4309aa, type: 3}
   volume:
     minValue: 1
     maxValue: 1
   pitch:
-    minValue: 0.29305792
-    maxValue: 0.38082534
+    minValue: 1.0306258
+    maxValue: 1.0306258
   time: 0
   loop: 0
   mixer: {fileID: 0}

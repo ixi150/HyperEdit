@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fff6378726ed4e7d8d01bcc0cb281694, type: 3}
   m_Name: HoldMouseDelay
   m_EditorClassIdentifier: 
-  value: 0.1
+  value: 0.4
   authorizedSources:
     restrictAccess: 1
     authorizedSources: []

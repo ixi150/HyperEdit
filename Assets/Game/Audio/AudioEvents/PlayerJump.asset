@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Name: PlayerJump
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 7efd7e193920ebb46ac330834468c40c, type: 3}
+  - {fileID: 8300000, guid: a0fe52f065fdf30418374951919ebbea, type: 3}
   volume:
-    minValue: 0
-    maxValue: 0
+    minValue: 0.3928096
+    maxValue: 0.3928096
   pitch:
-    minValue: 0.6138613
-    maxValue: 1.1089107
+    minValue: 1.0362422
+    maxValue: 1.5312916
   time: 0
   loop: 0
   mixer: {fileID: 0}

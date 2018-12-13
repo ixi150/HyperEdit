@@ -9,16 +9,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13a9f940313d06d4caed9863bf024ebf, type: 3}
-  m_Name: PlayerBump
+  m_Name: EatPlankton
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: bdb73da4bf5d5eb439bcbbbfa3768fd4, type: 3}
+  - {fileID: 8300000, guid: 7efd7e193920ebb46ac330834468c40c, type: 3}
   volume:
-    minValue: 1
-    maxValue: 1
+    minValue: 0.92010653
+    maxValue: 0.92010653
   pitch:
-    minValue: 0.29305792
-    maxValue: 0.38082534
+    minValue: 0.8682911
+    maxValue: 1.009321
   time: 0
   loop: 0
   mixer: {fileID: 0}
