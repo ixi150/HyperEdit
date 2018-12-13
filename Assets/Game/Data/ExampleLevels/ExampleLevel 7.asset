@@ -11,7 +11,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df8b5f48ea74e9b850e6f3e23ba876d, type: 3}
   m_Name: ExampleLevel 7
   m_EditorClassIdentifier: 
-  value: 
+  value: '{     "bounds": {         "x": 2,         "y": -6,         "width": 54,         "height":
+    14     },     "width": 10,     "items": [         {             "coord": {                 "x":
+    3,                 "y": 0             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 6,                 "y": 0             },             "id":
+    "plankton"         },         {             "coord": {                 "x": 9,                 "y":
+    0             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 9,                 "y": 3             },             "id":
+    "plankton"         },         {             "coord": {                 "x": 9,                 "y":
+    -3             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 3,                 "y": -3             },             "id":
+    "plankton"         },         {             "coord": {                 "x": 3,                 "y":
+    3             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 6,                 "y": -6             },             "id":
+    "b4"         },         {             "coord": {                 "x": 3,                 "y":
+    6             },             "id": "b3"         },         {             "coord":
+    {                 "x": 9,                 "y": 6             },             "id":
+    "b2"         },         {             "coord": {                 "x": 6,                 "y":
+    6             },             "id": "jelly"         },         {             "coord":
+    {                 "x": 3,                 "y": -6             },             "id":
+    "jelly"         },         {             "coord": {                 "x": 12,                 "y":
+    -6             },             "id": "jelly"         },         {             "coord":
+    {                 "x": 12,                 "y": 6             },             "id":
+    "jelly"         },         {             "coord": {                 "x": 21,                 "y":
+    0             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 21,                 "y": -6             },             "id":
+    "b1"         },         {             "coord": {                 "x": 30,                 "y":
+    6             },             "id": "b1"         },         {             "coord":
+    {                 "x": 36,                 "y": -6             },             "id":
+    "b1"         },         {             "coord": {                 "x": 42,                 "y":
+    6             },             "id": "b1"         },         {             "coord":
+    {                 "x": 15,                 "y": 6             },             "id":
+    "b1"         },         {             "coord": {                 "x": 18,                 "y":
+    -3             },             "id": "light"         },         {             "coord":
+    {                 "x": 27,                 "y": -3             },             "id":
+    "light"         },         {             "coord": {                 "x": 24,                 "y":
+    -6             },             "id": "locust"         },         {             "coord":
+    {                 "x": 15,                 "y": -6             },             "id":
+    "locust"         },         {             "coord": {                 "x": 21,                 "y":
+    3             },             "id": "locust"         },         {             "coord":
+    {                 "x": 30,                 "y": -3             },             "id":
+    "locust"         },         {             "coord": {                 "x": 36,                 "y":
+    0             },             "id": "locust"         },         {             "coord":
+    {                 "x": 45,                 "y": -6             },             "id":
+    "locust"         },         {             "coord": {                 "x": 51,                 "y":
+    -6             },             "id": "locust"         },         {             "coord":
+    {                 "x": 51,                 "y": 0             },             "id":
+    "mine"         },         {             "coord": {                 "x": 48,                 "y":
+    6             },             "id": "mine"         },         {             "coord":
+    {                 "x": 42,                 "y": -6             },             "id":
+    "mine"         },         {             "coord": {                 "x": 36,                 "y":
+    6             },             "id": "mine"         },         {             "coord":
+    {                 "x": 24,                 "y": 0             },             "id":
+    "mine"         },         {             "coord": {                 "x": 18,                 "y":
+    -6             },             "id": "mine"         },         {             "coord":
+    {                 "x": 18,                 "y": 6             },             "id":
+    "mine"         },         {             "coord": {                 "x": 24,                 "y":
+    6             },             "id": "mine"         },         {             "coord":
+    {                 "x": 33,                 "y": -6             },             "id":
+    "mine"         },         {             "coord": {                 "x": 45,                 "y":
+    3             },             "id": "mine"         },         {             "coord":
+    {                 "x": 39,                 "y": -6             },             "id":
+    "b3"         },         {             "coord": {                 "x": 27,                 "y":
+    6             },             "id": "b3"         },         {             "coord":
+    {                 "x": 33,                 "y": 6             },             "id":
+    "b2"         },         {             "coord": {                 "x": 45,                 "y":
+    6             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 39,                 "y": 6             },             "id":
+    "plankton"         },         {             "coord": {                 "x": 33,                 "y":
+    0             },             "id": "plankton"         },         {             "coord":
+    {                 "x": 48,                 "y": -6             },             "id":
+    "plankton"         },         {             "coord": {                 "x": 54,                 "y":
+    -6             },             "id": "light"         },         {             "coord":
+    {                 "x": 54,                 "y": 6             },             "id":
+    "mine"         }     ] }'
   authorizedSources:
     restrictAccess: 0
     authorizedSources: []
