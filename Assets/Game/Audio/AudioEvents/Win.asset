@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Name: Win
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 6f1f1d3d4d05a6d41baee3d06e4309aa, type: 3}
+  - {fileID: 8300000, guid: da2a36bfb54ed844b96996168b7eca99, type: 3}
   volume:
     minValue: 1
     maxValue: 1
   pitch:
-    minValue: 1.0306258
-    maxValue: 1.0306258
+    minValue: 0.6151798
+    maxValue: 0.6151798
   time: 0
   loop: 0
   mixer: {fileID: 0}

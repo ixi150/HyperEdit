@@ -11,7 +11,95 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df8b5f48ea74e9b850e6f3e23ba876d, type: 3}
   m_Name: ExampleLevel 1
   m_EditorClassIdentifier: 
-  value: 
+  value: "{\n    \"bounds\": {\n        \"x\": 2,\n        \"y\": -6,\n        \"width\":
+    54,\n        \"height\": 14\n    },\n    \"width\": 10,\n    \"items\": [\n        {\n
+    \           \"coord\": {\n                \"x\": 3,\n                \"y\": 6\n
+    \           },\n            \"id\": \"b2\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 3,\n                \"y\": -6\n            },\n            \"id\":
+    \"b3\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    3,\n                \"y\": -3\n            },\n            \"id\": \"plankton\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 3,\n                \"y\":
+    3\n            },\n            \"id\": \"plankton\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 6,\n                \"y\": 0\n            },\n            \"id\":
+    \"plankton\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    9,\n                \"y\": -3\n            },\n            \"id\": \"plankton\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 9,\n                \"y\":
+    0\n            },\n            \"id\": \"plankton\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 9,\n                \"y\": 3\n            },\n            \"id\":
+    \"plankton\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    6,\n                \"y\": -6\n            },\n            \"id\": \"mine\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 9,\n                \"y\":
+    -6\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 12,\n                \"y\": -6\n            },\n            \"id\":
+    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    6,\n                \"y\": 6\n            },\n            \"id\": \"mine\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 9,\n                \"y\":
+    6\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 12,\n                \"y\": 6\n            },\n            \"id\":
+    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    12,\n                \"y\": -3\n            },\n            \"id\": \"light\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 15,\n
+    \               \"y\": 0\n            },\n            \"id\": \"plankton\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 15,\n                \"y\":
+    6\n            },\n            \"id\": \"light\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 15,\n                \"y\": -6\n            },\n            \"id\":
+    \"b1\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    21,\n                \"y\": 6\n            },\n            \"id\": \"b1\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 27,\n                \"y\":
+    -6\n            },\n            \"id\": \"b1\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 33,\n                \"y\": 6\n            },\n            \"id\":
+    \"b1\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    36,\n                \"y\": -6\n            },\n            \"id\": \"b4\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 42,\n                \"y\":
+    6\n            },\n            \"id\": \"b5\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 54,\n                \"y\": -6\n            },\n            \"id\":
+    \"b5\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    21,\n                \"y\": -3\n            },\n            \"id\": \"locust\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 27,\n
+    \               \"y\": 3\n            },\n            \"id\": \"locust\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 33,\n                \"y\":
+    -3\n            },\n            \"id\": \"locust\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 39,\n                \"y\": 6\n            },\n            \"id\":
+    \"locust\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    30,\n                \"y\": 6\n            },\n            \"id\": \"mine\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 27,\n
+    \               \"y\": 6\n            },\n            \"id\": \"mine\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 24,\n                \"y\":
+    -6\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 33,\n                \"y\": -6\n            },\n            \"id\":
+    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    39,\n                \"y\": 3\n            },\n            \"id\": \"mine\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 42,\n
+    \               \"y\": -6\n            },\n            \"id\": \"mine\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 48,\n                \"y\":
+    3\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 45,\n                \"y\": 3\n            },\n            \"id\":
+    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    51,\n                \"y\": -6\n            },\n            \"id\": \"mine\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 30,\n
+    \               \"y\": -6\n            },\n            \"id\": \"light\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 51,\n                \"y\":
+    6\n            },\n            \"id\": \"jelly\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 18,\n                \"y\": 6\n            },\n            \"id\":
+    \"b3\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    18,\n                \"y\": -6\n            },\n            \"id\": \"b2\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 3,\n                \"y\":
+    0\n            },\n            \"id\": \"jelly\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 24,\n                \"y\": 6\n            },\n            \"id\":
+    \"plankton\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    27,\n                \"y\": 0\n            },\n            \"id\": \"plankton\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 42,\n
+    \               \"y\": 3\n            },\n            \"id\": \"plankton\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 45,\n                \"y\":
+    -6\n            },\n            \"id\": \"plankton\"\n        },\n        {\n
+    \           \"coord\": {\n                \"x\": 48,\n                \"y\": -6\n
+    \           },\n            \"id\": \"locust\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 42,\n                \"y\": -3\n            },\n            \"id\":
+    \"light\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    54,\n                \"y\": 0\n            },\n            \"id\": \"plankton\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 51,\n
+    \               \"y\": 0\n            },\n            \"id\": \"mine\"\n        }\n
+    \   ]\n}"
   authorizedSources:
     restrictAccess: 0
     authorizedSources: []

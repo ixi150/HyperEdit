@@ -11,14 +11,14 @@ namespace Game.Code.StageCreation
     public class StageCreationManager : ScriptableObject
     {
         const string SAVE_PREFIX = "LocalMapSlot";
-        
+
         [SerializeField] Vector2Int pixelSize = new Vector2Int(2, 2);
         [SerializeField] StageData data;
         [SerializeField] StringVariable[] examples;
         [SerializeField] [TextArea(5, 30)] string json;
-        
+
         readonly List<ItemCoordinates> itemsOnMap = new List<ItemCoordinates>();
-        
+
         string saveWip;
         Camera camera;
 
@@ -34,8 +34,7 @@ namespace Game.Code.StageCreation
             get { return json; }
         }
 
-        
-        
+
         StageData Data
         {
             get
@@ -74,7 +73,7 @@ namespace Game.Code.StageCreation
         {
             coords.ForEach(RemoveItem);
         }
-        
+
         public void AddItem(Item item)
         {
             var position = SnapPosition(item.Position);
@@ -90,10 +89,10 @@ namespace Game.Code.StageCreation
             for (int x = item.Size.xMin; x < item.Size.xMax; x++)
             {
                 yield return coord + new Vector2Int
-                (
-                    Mathf.FloorToInt(Mathf.Sign(item.transform.localScale.x) * PixelSize.x * x),
-                    Mathf.FloorToInt(Mathf.Sign(item.transform.localScale.y) * PixelSize.y * y)
-                );
+                             (
+                                 Mathf.FloorToInt(Mathf.Sign(item.transform.localScale.x) * PixelSize.x * x),
+                                 Mathf.FloorToInt(Mathf.Sign(item.transform.localScale.y) * PixelSize.y * y)
+                             );
             }
         }
 
@@ -102,7 +101,7 @@ namespace Game.Code.StageCreation
             itemsOnMap.Where(i => i.Coords.Any(coords.Contains))
                 .ForEach(i => i.DestroyItem());
         }
-        
+
         public void ClearMap()
         {
             Data.ClearItems();
@@ -119,7 +118,7 @@ namespace Game.Code.StageCreation
         {
             LoadStageFromString(saveWip);
         }
-        
+
         public void SaveStage()
         {
             PlayerPrefs.SetString(SAVE_PREFIX + CurrentSaveSlot, GetSaveString());
@@ -143,10 +142,13 @@ namespace Game.Code.StageCreation
         {
             LoadStageFromString(examples[index]);
         }
-        
+
         public void SaveExample(int index)
         {
             examples[index].Set(GetSaveString(), this);
+#if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(examples[index]);
+#endif
         }
 
         public void LoadStageFromString(string saveString)
