@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 114262121823056150}
   - component: {fileID: 114547702567324444}
   - component: {fileID: 114488098695332248}
+  - component: {fileID: 114682119009415766}
   m_Layer: 15
   m_Name: Player
   m_TagString: Player
@@ -188,7 +189,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1412398302981398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.1, y: -0.4, z: 0}
+  m_LocalPosition: {x: 34.66, y: -0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4894926393798992}
@@ -659,6 +660,22 @@ MonoBehaviour:
     minValue: 0.54336244
     maxValue: 1
   scale: 1
+--- !u!114 &114682119009415766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412398302981398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69bfc90b0640e45418fc9d73b27e43df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnable:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114883418591343434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -677,7 +694,7 @@ MonoBehaviour:
     reference: {fileID: 11400000, guid: 45a7f404062849d4fbe50375a953097a, type: 2}
     value: 0
     useConstant: 0
-  sceneReloadDelay: 1
+  sceneReloadDelay: 3
   playerJumped: {fileID: 11400000, guid: d6ccd84ba855e1443a9857dc0c1a47d0, type: 2}
   playerCollided: {fileID: 11400000, guid: 7d1c23e4b00a0394aaf172f993ca1bad, type: 2}
   playerDied: {fileID: 11400000, guid: 12fc50104b7016d4284591a7085d30bb, type: 2}

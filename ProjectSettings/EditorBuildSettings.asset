@@ -8,10 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/LevelEditor.unity
     guid: ba6124c0559db5040ae080372d37303e
-  - enabled: 0
-    path: Assets/Game/Scenes/Aquarium darkness pro.unity
-    guid: 1f495fae116c675438829ee732b33b8f
-  - enabled: 0
-    path: Assets/Game/Scenes/Development/Aquarium.unity
-    guid: b6379dd2b4b4c6244a1b1a014095e1ab
   m_configObjects: {}

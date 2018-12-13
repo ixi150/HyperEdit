@@ -14,7 +14,6 @@ namespace Game.Code
         [SerializeField] float sceneReloadDelay = 3;
         [SerializeField] GameEvent playerJumped, playerCollided, playerDied;
         
-        
         void OnEnable()
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -40,7 +39,7 @@ namespace Game.Code
             {
                 case "Win":
                     Deactivate();
-                    Invoke(ReloadScene, sceneReloadDelay);
+                    Invoke(ReloadScene, sceneReloadDelay/2);
                     break;
                 case "Lose":
                     Deactivate();

@@ -17,8 +17,8 @@ MonoBehaviour:
     minValue: 0
     maxValue: 0
   pitch:
-    minValue: 0.21782178
-    maxValue: 0.3762376
+    minValue: 0.5272211
+    maxValue: 0.60433626
   time: 0
   loop: 0
   mixer: {fileID: 0}

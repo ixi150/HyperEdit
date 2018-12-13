@@ -4827,7 +4827,7 @@ ParticleSystem:
   simulationSpeed: 1
   stopAction: 0
   looping: 1
-  prewarm: 1
+  prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -5447,7 +5447,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 2.995458, y: 10.082781, z: 0}
+    m_Scale: {x: 1, y: 1, z: 0}
     placementMode: 2
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0

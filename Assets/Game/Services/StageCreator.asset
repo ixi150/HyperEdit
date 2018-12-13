@@ -13,73 +13,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pixelSize: {x: 3, y: 3}
   data: {fileID: 11400000, guid: 5b83e8429bb9bf94cb03d9afaffacdac, type: 2}
+  examples:
+  - {fileID: 11400000, guid: 76878e5fcf28d024682e298459eb8989, type: 2}
+  - {fileID: 11400000, guid: ae54ed962e65f8a48af0137ba0c6c197, type: 2}
+  - {fileID: 11400000, guid: ac6381a2a309d744a9053ee36e2f393a, type: 2}
+  - {fileID: 11400000, guid: fe023ccd6a8a6b440b9f60823e399abf, type: 2}
+  - {fileID: 11400000, guid: 69bfc2516416d3b44863f21d777ea0dd, type: 2}
+  - {fileID: 11400000, guid: afaff4f9c75cb354c80513766a217352, type: 2}
+  - {fileID: 11400000, guid: 147cfbd2a5fb8ba4a8fcca30ff5ba916, type: 2}
+  - {fileID: 11400000, guid: f6c5c7bc99c0e244d968d1028ecdb8c0, type: 2}
   json: "{\n    \"bounds\": {\n        \"x\": 2,\n        \"y\": -6,\n        \"width\":
     54,\n        \"height\": 14\n    },\n    \"width\": 10,\n    \"items\": [\n        {\n
-    \           \"coord\": {\n                \"x\": 2,\n                \"y\": 0\n
-    \           },\n            \"id\": \"jelly\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 6,\n                \"y\": -4\n            },\n            \"id\":
-    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    6,\n                \"y\": 4\n            },\n            \"id\": \"mine\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 10,\n                \"y\":
-    -4\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 10,\n                \"y\": 4\n            },\n            \"id\":
-    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    8,\n                \"y\": 0\n            },\n            \"id\": \"jelly\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 14,\n
-    \               \"y\": 0\n            },\n            \"id\": \"jelly\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 20,\n                \"y\":
-    -4\n            },\n            \"id\": \"jelly\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 20,\n                \"y\": 4\n            },\n            \"id\":
-    \"jelly\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    24,\n                \"y\": 2\n            },\n            \"id\": \"mine\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 22,\n
-    \               \"y\": -6\n            },\n            \"id\": \"pla\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 24,\n                \"y\":
-    -6\n            },\n            \"id\": \"pla\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 26,\n                \"y\": -6\n            },\n            \"id\":
-    \"pla\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    18,\n                \"y\": 0\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 2,\n                \"y\":
-    -2\n            },\n            \"id\": \"plankton\"\n        },\n        {\n
-    \           \"coord\": {\n                \"x\": 4,\n                \"y\": -4\n
-    \           },\n            \"id\": \"plankton\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 6,\n                \"y\": -6\n            },\n            \"id\":
-    \"plankton\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    8,\n                \"y\": -4\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 10,\n
-    \               \"y\": -2\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 12,\n
-    \               \"y\": 0\n            },\n            \"id\": \"plankton\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 14,\n                \"y\":
-    2\n            },\n            \"id\": \"plankton\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 16,\n                \"y\": 2\n            },\n            \"id\":
-    \"plankton\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    22,\n                \"y\": -2\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 20,\n
-    \               \"y\": -2\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 24,\n
-    \               \"y\": -2\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 26,\n
-    \               \"y\": -2\n            },\n            \"id\": \"plankton\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 28,\n
-    \               \"y\": -6\n            },\n            \"id\": \"pla\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 28,\n                \"y\":
-    0\n            },\n            \"id\": \"jelly\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 28,\n                \"y\": -2\n            },\n            \"id\":
-    \"jelly\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    30,\n                \"y\": 0\n            },\n            \"id\": \"jelly\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 30,\n
-    \               \"y\": -2\n            },\n            \"id\": \"jelly\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 36,\n                \"y\":
-    -2\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 38,\n                \"y\": -2\n            },\n            \"id\":
-    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    54,\n                \"y\": -2\n            },\n            \"id\": \"mine\"\n
-    \       },\n        {\n            \"coord\": {\n                \"x\": 54,\n
-    \               \"y\": 0\n            },\n            \"id\": \"mine\"\n        },\n
-    \       {\n            \"coord\": {\n                \"x\": 54,\n                \"y\":
-    2\n            },\n            \"id\": \"mine\"\n        },\n        {\n            \"coord\":
-    {\n                \"x\": 54,\n                \"y\": 4\n            },\n            \"id\":
-    \"mine\"\n        },\n        {\n            \"coord\": {\n                \"x\":
-    52,\n                \"y\": 4\n            },\n            \"id\": \"mine\"\n
-    \       }\n    ]\n}"
+    \           \"coord\": {\n                \"x\": 33,\n                \"y\": -3\n
+    \           },\n            \"id\": \"locust\"\n        },\n        {\n            \"coord\":
+    {\n                \"x\": 36,\n                \"y\": 0\n            },\n            \"id\":
+    \"locust\"\n        },\n        {\n            \"coord\": {\n                \"x\":
+    36,\n                \"y\": 3\n            },\n            \"id\": \"locust\"\n
+    \       },\n        {\n            \"coord\": {\n                \"x\": 39,\n
+    \               \"y\": -3\n            },\n            \"id\": \"locust\"\n        },\n
+    \       {\n            \"coord\": {\n                \"x\": 30,\n                \"y\":
+    3\n            },\n            \"id\": \"locust\"\n        }\n    ]\n}"

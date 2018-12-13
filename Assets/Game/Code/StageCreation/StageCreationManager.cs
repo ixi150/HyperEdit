@@ -3,6 +3,8 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Xunity.Extensions;
+using Xunity.ScriptableReferences;
+using Xunity.ScriptableVariables;
 
 namespace Game.Code.StageCreation
 {
@@ -12,7 +14,8 @@ namespace Game.Code.StageCreation
         
         [SerializeField] Vector2Int pixelSize = new Vector2Int(2, 2);
         [SerializeField] StageData data;
-        [SerializeField] [TextArea(5, 50)] string json;
+        [SerializeField] StringVariable[] examples;
+        [SerializeField] [TextArea(5, 30)] string json;
         
         readonly List<ItemCoordinates> itemsOnMap = new List<ItemCoordinates>();
         
@@ -134,6 +137,16 @@ namespace Game.Code.StageCreation
         {
             json = PlayerPrefs.GetString(SAVE_PREFIX + CurrentSaveSlot);
             LoadStageFromString(json);
+        }
+
+        public void LoadExample(int index)
+        {
+            LoadStageFromString(examples[index]);
+        }
+        
+        public void SaveExample(int index)
+        {
+            examples[index].Set(GetSaveString(), this);
         }
 
         public void LoadStageFromString(string saveString)

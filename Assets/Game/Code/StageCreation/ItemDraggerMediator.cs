@@ -19,7 +19,7 @@ namespace Game.Code.StageCreation
         {
             if (Input.GetMouseButtonUp(0))
                 StopAllCoroutines();
-            if (itemDragger.IsDragging || !Input.GetMouseButtonDown(0))
+            if (itemDragger.IsDragging || !Input.GetMouseButtonDown(0) || stageCreationManager.IsMouseOverUi())
                 return;
 
             var pos = stageCreationManager.GetWorldMouseSnapPosition();

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Light
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: ff6d77f490bcd0a48ae966d44e6a27dd, type: 2}
-  icon: {fileID: 21300000, guid: 8e35745a065d6514a8d02c3c37ce56da, type: 3}
+  icon: {fileID: 21300000, guid: b6f43cd94a1253046a52c3ed4d541730, type: 3}
   prefab: {fileID: 114820287793534130, guid: c020170c48affe849ae5425f132d823d, type: 2}
