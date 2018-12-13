@@ -2,6 +2,7 @@
 using UnityEngine;
 using Xunity.Behaviours;
 using Xunity.Playables;
+using Xunity.ScriptableEvents;
 using Xunity.ScriptableReferences;
 
 namespace Game.Code
@@ -11,7 +12,9 @@ namespace Game.Code
         [SerializeField] Playable[] playablesOnJump;
         [SerializeField] FloatReference jumpCooldown;
         [SerializeField] float sceneReloadDelay = 3;
-
+        [SerializeField] GameEvent playerJumped, playerCollided, playerDied;
+        
+        
         void OnEnable()
         {
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -21,6 +24,7 @@ namespace Game.Code
 
         void Jump()
         {
+            playerJumped.Raise();
             foreach (var playable in playablesOnJump)
                 playable.Play();
         }
@@ -41,10 +45,17 @@ namespace Game.Code
                 case "Lose":
                     Deactivate();
                     Invoke(ReloadScene, sceneReloadDelay);
+                    playerDied.Raise();
                     break;
                 default:
+                    
                     break;
             }
+        }
+
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            playerCollided.Raise();
         }
 
         void ReloadScene()

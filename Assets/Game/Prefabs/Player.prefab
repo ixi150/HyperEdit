@@ -678,6 +678,9 @@ MonoBehaviour:
     value: 0
     useConstant: 0
   sceneReloadDelay: 1
+  playerJumped: {fileID: 11400000, guid: d6ccd84ba855e1443a9857dc0c1a47d0, type: 2}
+  playerCollided: {fileID: 11400000, guid: 7d1c23e4b00a0394aaf172f993ca1bad, type: 2}
+  playerDied: {fileID: 11400000, guid: 12fc50104b7016d4284591a7085d30bb, type: 2}
 --- !u!114 &114927348459228114
 MonoBehaviour:
   m_ObjectHideFlags: 1
